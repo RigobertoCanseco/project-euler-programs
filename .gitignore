@@ -1,0 +1,19 @@
+# Created by .ignore support plugin (hsz.mobi)
+### CMake template
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Makefile
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+.gitignore
+.idea/dictionaries/
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/project-euler-programs.iml
+.idea/serialmonitor_settings.xml
+.idea/workspace.xml
+CMakeLists.txt
+cmake-build-debug/
