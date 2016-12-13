@@ -21,10 +21,13 @@ int main(void){
     return 0;
 }
 
+
 int is_prime(int n){
     int i = 2;
     int max = sqrt(n);
-    while( i<max ){
+    if (n ==1)
+        return 0;
+    while( i<=max ){
         if(fmod(n,i)==0)
             return 0;
         i++;
