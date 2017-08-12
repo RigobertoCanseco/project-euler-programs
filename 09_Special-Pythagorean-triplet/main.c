@@ -1,6 +1,3 @@
-//
-// Created by regoeco on 4/12/16.
-//
 /*
     A Pythagorean triplet is a set of three natural numbers, a < b < c, for which,
     a^2 + b^2 = c^2
@@ -13,21 +10,13 @@
     a² + b² - c² = 0
     a  +  b  + c = 1000
 
-
-
-
-
-
-
     a + 1 = b
     b + 1 = c
-    a^² + (a+1)² + (a+2)² = 1000
+    a² + (a+1)² + (a+2)² = 1000
     a² + a² + 2a + 1 + a² + 4a + 4 = 1000
     a(a + a + 2 + a + 4) + 5 = 1000
     a(3a + 6) + 5 = 1000
     a(3(a + 2) ) + 5 = 1000
-
-
 
     3a² + 6a + 5 = 1000
     2a¹ + a¹ + 2a + 4a + 5

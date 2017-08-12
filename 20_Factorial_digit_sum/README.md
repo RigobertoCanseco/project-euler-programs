@@ -1,4 +1,3 @@
-
 # Factorial digit sum
 
 #### Next problem is the number 20 of list of problems of [Project Euler](https://projecteuler.net/).
