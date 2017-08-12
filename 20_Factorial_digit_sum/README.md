@@ -1,7 +1,7 @@
 
-#Factorial digit sum
+# Factorial digit sum
 
-####Next problem is the number 20 of list of problems of [Project Euler](https://projecteuler.net/).
+#### Next problem is the number 20 of list of problems of [Project Euler](https://projecteuler.net/).
 
 ````
 n! means n × (n − 1) × ... × 3 × 2 × 1
@@ -11,4 +11,3 @@ and the sum of the digits in the number 10! is 3 + 6 + 2 + 8 + 8 + 0 + 0 = 27.
 
 Find the sum of the digits in the number 100!
 ````
-![Benjamin Bannekat](http://octodex.github.com/images/octdrey-catburn.jpg)
