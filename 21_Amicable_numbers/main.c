@@ -18,7 +18,7 @@ void amicable_numbers(int max);
 int main(void){
     printf("Amicables numbers\n");
 
-    amicable_numbers(1000);
+    amicable_numbers(10000);
     return (EXIT_SUCCESS);
 }
 
@@ -34,22 +34,25 @@ void amicable_numbers(int max){
     for(i = 1; i<=max; i++){
         list[i-1] = divisors(i);
         j = 0;
-        printf("%d: ", i);
+        //printf("%d: ", i);
         sum = 0;
         while( list[i-1][j] !=  NULL){
-            sum +=  list[i-1][j];
-            printf("%d ", list[i-1][j++]);
+            sum +=  list[i-1][j++];
         }
-        printf(", %d \n", sum);
+        //printf(", %d \n", sum);
         num[i-1][0] = sum;
     }
 
+    //sum total
+    int sum_total = 0;
     for(i = 0; i< max; i++){
-        if(num[i][0]<1000 && num[i][0]!= 1 && (i+1) == num[0][num[i][0]-1] && num[i][0] != num[0][num[i][0]-1] &&
+        if(num[i][0]<max && num[i][0]!= 1 && (i+1) == num[0][num[i][0]-1] && num[i][0] != num[0][num[i][0]-1] &&
                 num[i][0] == num[0][num[0][num[i][0]-1]-1]){
             printf(" %d , %d\n", i+1, num[i][0]);
+            sum_total += (i+1);
         }
     }
+    printf("Sum total: %d\n", sum_total);
 }
 
 /**
