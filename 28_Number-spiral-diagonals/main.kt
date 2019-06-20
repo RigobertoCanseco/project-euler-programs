@@ -1,19 +1,13 @@
 
 fun sum(limit: Int):Int{
     var numbers: ArrayList<Int> = ArrayList()
-    var p:Int = 2
     var c:Int = 1
     numbers.add(c)
 
-    while (p <= limit){
-        for(i in 1..4){
-            numbers.add(c+p*i)
-        }
-        c = numbers.last();
-        p+=2
+    (2 until limit step 2).forEach{ p ->
+        (1 until 5).forEach{i ->numbers.add(c+p*i) }
+        c = numbers.last()
     }
-
-    numbers.forEach{ p -> println(p)}
 
     return numbers.sum()
 }
