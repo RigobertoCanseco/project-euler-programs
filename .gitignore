@@ -19,3 +19,10 @@ CMakeLists.txt
 cmake-build-debug/
 08_Largest-product-in-a-series/p
 16_Power-digit-sum/file.txt
+*.gem
+.bundle
+.jekyll-cache
+.sass-cache
+_site
+vendor
+Gemfile.lock
