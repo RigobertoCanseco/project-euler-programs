@@ -1,6 +1,6 @@
 ---
 layout: post
-category: example
+category: example2
 usemathjax: true
 ---
 
