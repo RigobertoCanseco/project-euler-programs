@@ -4,32 +4,33 @@
 entries:
   - title: info
     entries:
-      - title: a (nearly) no-CSS, fast, minimalist Jekyll theme.
+      - title: A repository with problems of project euler
+      - title: https://projecteuler.net/
+        url: https://projecteuler.net/
       - title: github repo
-        url: https://github.com/riggraz/no-style-please
-      - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
+        url: https://github.com/rigobertocanseco/project-euler-problems
 
-  - title: all posts
+  - title: problems
     post_list:
-      limit: 5
+      limit: 0
       show_more: true
-      show_more_text: See archive...
-      show_more_url: archive.html
+      show_more_text: See all...
+      show_more_url: problems.html
 
-  - title: posts by category
-    post_list:
-      category: example2
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: example2-archive.html
+#  - title: posts by category
+#    post_list:
+#      category: example2
+#      show_more: true
+#      show_more_text: See more posts...
+#      show_more_url: example2-problems.html
 
   - title: rss
     url: feed.xml
   
-  - title: another list
-    entries:
-      - title: with subitems
-        entries:
-          - title: with subsubitems
-          - title: example page
-            url: about
+#  - title: another list
+#    entries:
+#      - title: with subitems
+#        entries:
+#          - title: with subsubitems
+#          - title: example page
+#            url: about

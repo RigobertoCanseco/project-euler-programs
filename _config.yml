@@ -2,7 +2,7 @@ title: Project Euler # name of the site
 author: Rigoberto Canseco # name of site's author
 email: rigobertocanseco@gmail.com # email of site's author
 url: https://rigobertocanseco.dev # root address of the site
-baseurl: "/project-euler-programs" # subpath of the site, e.g. "/blog"
+baseurl: "/project-euler-problems" # subpath of the site, e.g. "/blog"
 description: > # description of the site (multiple lines allowed)
   A web site for problems of project euler
 
