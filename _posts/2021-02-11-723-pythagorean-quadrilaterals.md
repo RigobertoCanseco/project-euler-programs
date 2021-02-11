@@ -14,11 +14,11 @@ We further call a pythagorean quadrilateral a <i>pythagorean lattice grid quadri
 Let $f(r)$ be the number of different pythagorean lattice grid quadrilaterals for which the radius of the circumcircle is $r$. For example $f(1)=1$, $f(\sqrt 2)=1$, $f(\sqrt 5)=38$ and $f(5)=167$.<br /> 
 Two of the pythagorean lattice grid  quadrilaterals with $r=\sqrt 5$ are illustrated below:</p>
 <div class="center">
-<img src="project/images/p723_1.png" alt="PythagoreanQ_1" />
+<img src="https://projecteuler.net/project/images/p723_1.png" alt="PythagoreanQ_1" />
 </div>
 <br />
 <div class="center">
-<img src="project/images/p723_2.png" alt="PythagoreanQ_2" />
+<img src="https://projecteuler.net/project/images/p723_2.png" alt="PythagoreanQ_2" />
 </div>
 <p>
 Let $\displaystyle S(n)=\sum_{d \vert n} f(\sqrt d)$. For example, $S(325)=S(5^2 \cdot 13)=f(1)+f(\sqrt 5)+f(5)+f(\sqrt {13})+f(\sqrt{65})+f(5\sqrt{13})=2370$ and $S(1105)=S(5\cdot 13 \cdot 17)=5535$.</p>

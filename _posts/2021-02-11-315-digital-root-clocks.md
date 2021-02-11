@@ -5,7 +5,7 @@ mathjax: true
 **Problem 315**  
 [https://projecteuler.net/problem=315](https://projecteuler.net/problem=315)
 
-<p></p><div align="center"><img src="project/images/p315_clocks.gif" alt="p315_clocks.gif" /></div>
+<p></p><div align="center"><img src="https://projecteuler.net/project/images/p315_clocks.gif" alt="p315_clocks.gif" /></div>
 
 <p>Sam and Max are asked to transform two digital clocks into two "digital root" clocks.<br />
 A digital root clock is a digital clock that calculates digital roots step by step.</p>

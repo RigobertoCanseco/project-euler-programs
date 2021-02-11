@@ -8,7 +8,7 @@ mathjax: true
 <p>Consider a honey bee's honeycomb where each cell is a perfect regular hexagon with side length $1$.</p>
 
 <div align="center">
-<img src="project/images/p354_bee_honeycomb.png" alt="p354_bee_honeycomb.png" /></div>
+<img src="https://projecteuler.net/project/images/p354_bee_honeycomb.png" alt="p354_bee_honeycomb.png" /></div>
 
 
 <p>

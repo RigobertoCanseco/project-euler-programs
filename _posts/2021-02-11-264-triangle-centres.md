@@ -21,7 +21,7 @@ A(1, 8), B(8, -1), C(-4, -7)<br /><br /><br />
 A(8, 1), B(1, -8), C(-4, 7)<br />
 A(2, 9), B(9, -2), C(-6, -7)<br />
 A(9, 2), B(2, -9), C(-6, 7)<br /></td>
-<td><img src="project/images/p264_TriangleCentres.gif" class="dark_img" alt="p264_TriangleCentres.gif" /></td>
+<td><img src="https://projecteuler.net/project/images/p264_TriangleCentres.gif" class="dark_img" alt="p264_TriangleCentres.gif" /></td>
 </tr></table><p>The sum of their perimeters, rounded to four decimal places, is 291.0089.</p>
 
 <p>Find all such triangles with a perimeter ≤ 10<sup>5</sup>.<br />

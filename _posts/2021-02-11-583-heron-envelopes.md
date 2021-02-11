@@ -10,7 +10,7 @@ A standard envelope shape is a convex figure consisting of an isosceles triangle
 </p>
 
 <div class="center">
-<img src="project/images/p583_heron_envelope.gif" alt="p583_heron_envelope.gif" />
+<img src="https://projecteuler.net/project/images/p583_heron_envelope.gif" alt="p583_heron_envelope.gif" />
 </div>
 
 <p>

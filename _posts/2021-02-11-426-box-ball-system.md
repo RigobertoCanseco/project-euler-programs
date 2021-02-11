@@ -16,7 +16,7 @@ After one turn the sequence (2, 2, 2, 1, 2) becomes (2, 2, 1, 2, 3) as can be se
 </p>
 
 <div align="center">
-<img src="project/images/p426_baxball1.gif" alt="p426_baxball1.gif" /></div>
+<img src="https://projecteuler.net/project/images/p426_baxball1.gif" alt="p426_baxball1.gif" /></div>
 
 <p>
 A system like this is called a <b>Box-Ball System</b> or <b>BBS</b> for short.
@@ -26,7 +26,7 @@ It can be shown that after a sufficient number of turns, the system evolves to a
 </p>
 
 <div align="center">
-<img src="project/images/p426_baxball2.gif" alt="p426_baxball2.gif" /></div>
+<img src="https://projecteuler.net/project/images/p426_baxball2.gif" alt="p426_baxball2.gif" /></div>
 
 <p>
 We define the sequence {<var>t</var><sub><var>i</var></sub>}:<br /></p><ul><li><var>s</var><sub>0</sub> = 290797

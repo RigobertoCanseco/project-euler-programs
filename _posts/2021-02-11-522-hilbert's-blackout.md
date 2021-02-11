@@ -13,7 +13,7 @@ mathjax: true
 
 <p>For example, consider a sample flow diagram for a three-story hotel:</p>
 
-<p align="center"><img src="project/images/p522_hilberts_blackout.png" alt="p522_hilberts_blackout.png" /></p>
+<p align="center"><img src="https://projecteuler.net/project/images/p522_hilberts_blackout.png" alt="p522_hilberts_blackout.png" /></p>
 
 <p>If the generator were placed on the first floor, then every floor would receive power. But if it were placed on the second or third floors instead, then there would be a blackout on the first floor. Note that while a given floor can <i>receive</i> power from many other floors at once, it can only <i>send</i> power to one other floor.</p>
 

@@ -13,7 +13,7 @@ Alice walks on a lattice grid. She can step from one lattice point $A (a,b)$ to 
 In the lattice grid below Alice can step from the blue point to any of the red points.<br />
 
 </p>
-<p align="center"><img src="project/images/p662_fibonacciwalks.png" alt="p662_fibonacciwalks.png" /></p>
+<p align="center"><img src="https://projecteuler.net/project/images/p662_fibonacciwalks.png" alt="p662_fibonacciwalks.png" /></p>
 <p>
 Let $F(W,H)$ be the number of paths Alice can take from $(0,0)$ to $(W,H)$.<br />
 You are given $F(3,4) = 278$ and $F(10,10) = 215846462$.

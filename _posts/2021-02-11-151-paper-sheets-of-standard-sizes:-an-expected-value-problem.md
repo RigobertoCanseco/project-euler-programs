@@ -13,7 +13,7 @@ mathjax: true
 
 <p>All the unused sheets are placed back in the envelope.</p>
 
-<div class="center"><img src="project/images/p151.png" class="dark_img" alt="" /></div>
+<div class="center"><img src="https://projecteuler.net/project/images/p151.png" class="dark_img" alt="" /></div>
 
 <p>At the beginning of each subsequent batch, the supervisor takes from the envelope one sheet of paper at random. If it is of size A5, then it is used. If it is larger, then the 'cut-in-half' procedure is repeated until an A5-size sheet is obtained, and any remaining sheets are always placed back in the envelope.</p>
 

@@ -19,7 +19,7 @@ The triplet (<var>a</var>, <var>b</var>, <var>c</var>) is called a <em>necklace 
 </li></ul><p>
 For example, (5, 5, 5) and (4, 3, 21) are necklace triplets, while it can be shown that (2, 2, 5) is not.
 </p>
-<p align="center"><img src="project/images/p428_necklace.png" class="dark_img" alt="p428_necklace.png" /></p>
+<p align="center"><img src="https://projecteuler.net/project/images/p428_necklace.png" class="dark_img" alt="p428_necklace.png" /></p>
 
 <p>
 Let T(<var>n</var>) be the number of necklace triplets (<var>a</var>, <var>b</var>, <var>c</var>) such that <var>a</var>, <var>b</var> and <var>c</var> are positive integers, and <var>b</var> ≤ <var>n</var>.

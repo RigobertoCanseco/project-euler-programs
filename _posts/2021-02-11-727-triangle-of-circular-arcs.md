@@ -8,7 +8,7 @@ mathjax: true
 <p>Let $r_a$, $r_b$ and $r_c$ be the radii of three circles that are mutually and externally tangent to each other. The three circles then form a <dfn>triangle of circular arcs</dfn> between their tangency points as shown for the three blue circles in the picture below.</p>
 <p></p>
 <div class="center">
-<img src="project/images/p727_circular_arcs.jpg" alt="CircularArcs" />
+<img src="https://projecteuler.net/project/images/p727_circular_arcs.jpg" alt="CircularArcs" />
 </div>
 
 <p></p>

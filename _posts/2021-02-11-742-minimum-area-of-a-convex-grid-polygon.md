@@ -14,7 +14,7 @@ mathjax: true
 
 <p>For example, the left polygon is a convex grid polygon which has neither horizontal nor vertical symmetry, while the right one is a valid symmetrical convex grid polygon with six vertices:</p>
 <div style="text-align:center;">
-<img src="project/images/p742_hexagons.jpg" class="dark_img" alt="" /></div>
+<img src="https://projecteuler.net/project/images/p742_hexagons.jpg" class="dark_img" alt="" /></div>
 
 <p>Define $A(N)$, the minimum area of a symmetrical convex grid polygon with $N$ vertices.</p>
 

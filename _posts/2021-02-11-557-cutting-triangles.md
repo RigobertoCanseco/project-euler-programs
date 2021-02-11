@@ -8,7 +8,7 @@ mathjax: true
 <p>
 A triangle is cut into four pieces by two straight lines, each starting at one vertex and ending on the opposite edge. This results in forming three smaller triangular pieces, and one quadrilateral.  If the original triangle has an integral area, it is often possible to choose cuts such that all of the four pieces also have integral area.  For example, the diagram below shows a triangle of area 55 that has been cut in this way.
 </p>
-<div align="center"><img src="project/images/p557-triangle.gif" alt="p557-triangle.gif" /></div>
+<div align="center"><img src="https://projecteuler.net/project/images/p557-triangle.gif" alt="p557-triangle.gif" /></div>
 <p>
 Representing the areas as <var>a, b, c</var> and <var>d</var>, in the example above, the individual areas are <var>a</var> = 22, <var>b</var> = 8, <var>c</var> = 11 and <var>d</var> = 14.  It is also possible to cut a triangle of area 55 such that <var>a</var> = 20, <var>b</var> = 2, <var>c</var> = 24, <var>d</var> = 9.</p>
 <p>

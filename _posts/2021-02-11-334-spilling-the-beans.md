@@ -11,7 +11,7 @@ A child plays a game, which allows only one kind of move: removing two beans fro
 
 <p>For example, consider two adjacent bowls containing 2 and 3 beans respectively, all other bowls being empty. The following eight moves will finish the game:</p>
 
-<div align="center"><img src="project/images/p334_beans.gif" class="dark_img" alt="p334_beans.gif" /></div>
+<div align="center"><img src="https://projecteuler.net/project/images/p334_beans.gif" class="dark_img" alt="p334_beans.gif" /></div>
 
 <p>You are given the following sequences:<br /></p>
 

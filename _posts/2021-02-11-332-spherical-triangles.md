@@ -7,7 +7,7 @@ mathjax: true
 
 <p>A <b>spherical triangle</b> is a figure formed on the surface of a sphere by three <b>great circular arcs</b> intersecting pairwise in three vertices.</p>
 
-<div align="center"><img src="project/images/p332_spherical.jpg" class="dark_img" alt="p332_spherical.jpg" /></div>
+<div align="center"><img src="https://projecteuler.net/project/images/p332_spherical.jpg" class="dark_img" alt="p332_spherical.jpg" /></div>
 
 
 <p>Let C(<var>r</var>) be the sphere with the centre (0,0,0) and radius <var>r</var>.<br />

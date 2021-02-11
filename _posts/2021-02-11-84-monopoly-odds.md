@@ -7,7 +7,7 @@ mathjax: true
 
 <p>In the game, <i>Monopoly</i>, the standard board is set up in the following way:</p>
 <div class="center">
-<img src="project/images/p084_monopoly_board.png" alt="p084_monopoly_board.png" />
+<img src="https://projecteuler.net/project/images/p084_monopoly_board.png" alt="p084_monopoly_board.png" />
 </div>
 <p>A player starts on the GO square and adds the scores on two 6-sided dice to determine the number of squares they advance in a clockwise direction. Without any further rules we would expect to visit each square with equal probability: 2.5%. However, landing on G2J (Go To Jail), CC (community chest), and CH (chance) changes this distribution.</p>
 <p>In addition to G2J, and one card from each of CC and CH, that orders the player to go directly to jail, if a player rolls three consecutive doubles, they do not advance the result of their 3rd roll. Instead they proceed directly to jail.</p>

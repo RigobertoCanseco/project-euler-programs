@@ -14,7 +14,7 @@ mathjax: true
 </li><li> P<sub>2</sub> = (-43/6, -4).
 </li><li> For <var>i</var> &gt; 2, P<sub><var>i</var></sub> is the unique point in H that is different from P<sub><var>i</var>-1</sub> and such that line P<sub><var>i</var></sub>P<sub><var>i</var>-1</sub> is parallel to line P<sub><var>i</var>-2</sub>X. It can be shown that P<sub><var>i</var></sub> is well-defined, and that its coordinates are always rational.
 </li></ul>
-<div class="center"><img src="project/images/p422_hyperbola.gif" class="dark_img" alt="p422_hyperbola.gif" /></div>
+<div class="center"><img src="https://projecteuler.net/project/images/p422_hyperbola.gif" class="dark_img" alt="p422_hyperbola.gif" /></div>
 <p>You are given that P<sub>3</sub>  = (-19/2, -229/24), P<sub>4</sub> = (1267/144, -37/12) and P<sub>7</sub> = (17194218091/143327232, 274748766781/1719926784).</p>
 
 <p>Find P<sub><var>n</var></sub> for <var>n</var> = 11<sup>14</sup> in the following format:<br />If P<sub><var>n</var></sub> = (<var>a</var>/<var>b</var>, <var>c</var>/<var>d</var>) where the fractions are in lowest terms and the denominators are positive, then the answer is (<var>a</var> + <var>b</var> + <var>c</var> + <var>d</var>) mod 1 000 000 007.</p>

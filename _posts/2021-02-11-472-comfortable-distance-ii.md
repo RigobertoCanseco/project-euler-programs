@@ -12,7 +12,7 @@ mathjax: true
 </ol><p>Note that due to rule 1, some seats will surely be left unoccupied, and the maximum number of people that can be seated is less than <var>N</var> (for <var>N</var> &gt; 1).</p>
 
 <p>Here are the possible seating arrangements for <var>N</var> = 15:
-</p><p align="center"><img src="project/images/p472_n15.png" class="dark_img" alt="p472_n15.png" /></p>
+</p><p align="center"><img src="https://projecteuler.net/project/images/p472_n15.png" class="dark_img" alt="p472_n15.png" /></p>
 
 
 <p>We see that if the first person chooses correctly, the 15 seats can seat up to 7 people.<br />

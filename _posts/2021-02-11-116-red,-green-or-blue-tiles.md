@@ -9,19 +9,19 @@ mathjax: true
 <p>If red tiles are chosen there are exactly seven ways this can be done.</p>
 
 <div class="center">
-<img src="project/images/p116_1.png" alt="png116_1.png" />
+<img src="https://projecteuler.net/project/images/p116_1.png" alt="png116_1.png" />
 </div>
 
 <p>If green tiles are chosen there are three ways.</p>
 
 <div class="center">
-<img src="project/images/p116_2.png" alt="png116_2.png" />
+<img src="https://projecteuler.net/project/images/p116_2.png" alt="png116_2.png" />
 </div>
 
 <p>And if blue tiles are chosen there are two ways.</p>
 
 <div class="center">
-<img src="project/images/p116_3.png" alt="png116_3.png" />
+<img src="https://projecteuler.net/project/images/p116_3.png" alt="png116_3.png" />
 </div>
 
 <p>Assuming that colours cannot be mixed there are 7 + 3 + 2 = 12 ways of replacing the grey tiles in a row measuring five units in length.</p>

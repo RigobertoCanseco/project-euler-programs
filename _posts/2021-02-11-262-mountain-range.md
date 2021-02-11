@@ -8,7 +8,7 @@ mathjax: true
 <p>The following equation represents the <i>continuous</i> topography of a mountainous region, giving the <dfn title="height above sea level">elevation</dfn> <var>h</var> at any point (<var>x</var>,<var>y</var>):</p>
 
 <div align="center">
-<img src="project/images/p262_formula1.gif" class="dark_img" alt="p262_formula1.gif" /><br /></div>
+<img src="https://projecteuler.net/project/images/p262_formula1.gif" class="dark_img" alt="p262_formula1.gif" /><br /></div>
 
 <p>A mosquito intends to fly from A(200,200) to B(1400,1400), without leaving the area given by 0 ≤ <var>x</var>, <var>y</var> ≤ 1600.</p>
 

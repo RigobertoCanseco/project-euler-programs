@@ -10,7 +10,7 @@ mathjax: true
 <p>The area under the blancmange curve is equal to ½, shown in pink in the diagram below.</p>
 
 <div class="center">
-<img src="project/images/p226_scoop2.gif" class="dark_img" alt="blancmange curve" /></div>
+<img src="https://projecteuler.net/project/images/p226_scoop2.gif" class="dark_img" alt="blancmange curve" /></div>
 
 <p>Let <var>C</var> be the circle with centre $\left ( \frac{1}{4}, \frac{1}{2} \right )$ and radius $\frac{1}{4}$, shown in black in the diagram.</p>
 

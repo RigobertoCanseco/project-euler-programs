@@ -13,7 +13,7 @@ the next bits contains the description of the top left, top right, bottom left a
 <li>"10" indicates that the current region contains only black pixels;</li>
 <li>"11" indicates that the current region contains only white pixels.</li></ul><p>Consider the following 4×4 image (colored marks denote places where a split can occur):</p>
 
-<div class="center"><img src="project/images/p287_quadtree.gif" class="dark_img" alt="p287_quadtree.gif" /></div>
+<div class="center"><img src="https://projecteuler.net/project/images/p287_quadtree.gif" class="dark_img" alt="p287_quadtree.gif" /></div>
 
 <p>This image can be described by several sequences, for example :
 "<span class="red strong">0</span><span class="blue strong">0</span>10101010<span class="green strong">0</span>1011111011<span class="orange strong">0</span>10101010", of length 30, or<br />

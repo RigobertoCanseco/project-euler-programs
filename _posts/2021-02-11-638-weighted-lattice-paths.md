@@ -14,7 +14,7 @@ Let $P_{a,b}$ denote a path in a $a\times b$ lattice grid with following propert
 Denote $A(P_{a,b})$ to be the area under the path. For the example of a $P_{4,3}$ path given below, the area equals 6.
 
 <div class="center">
-<img src="project/images/p638_lattice_area.png" alt="crossed lines" />
+<img src="https://projecteuler.net/project/images/p638_lattice_area.png" alt="crossed lines" />
 </div>
 <p>
 Define $G(P_{a,b},k)=k^{A(P_{a,b})}$. Let $C(a,b,k)$ equal the sum of $G(P_{a,b},k)$ over all valid paths in a $a\times b$ lattice grid. 

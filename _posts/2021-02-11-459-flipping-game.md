@@ -14,7 +14,7 @@ The game starts with all disks showing their white side.</p>
 <li>the rectangle width is a perfect square (1, 4, 9, 16, ...)</li>
 <li>the rectangle height is a <dfn title="The triangular numbers are defined as ½ n(n + 1) for positive integer n.">triangular number</dfn> (1, 3, 6, 10, ...)</li>
 </ul>
-<p class="center"><img src="project/images/p459-flipping-game-0.png" alt="p459-flipping-game-0.png" /></p>
+<p class="center"><img src="https://projecteuler.net/project/images/p459-flipping-game-0.png" alt="p459-flipping-game-0.png" /></p>
 
 <p>Players alternate turns. A player wins by turning the grid all black.</p>
 
@@ -23,7 +23,7 @@ W(1) = 1, W(2) = 0, W(5) = 8 and W(10<sup>2</sup>) = 31395.</p>
 
 <p>For N=5, the first player's eight winning first moves are:</p>
 
-<p class="center"><img src="project/images/p459-flipping-game-1.png" class="dark_img" alt="p459-flipping-game-1.png" /></p>
+<p class="center"><img src="https://projecteuler.net/project/images/p459-flipping-game-1.png" class="dark_img" alt="p459-flipping-game-1.png" /></p>
 
 <p>Find W(10<sup>6</sup>).</p>
 

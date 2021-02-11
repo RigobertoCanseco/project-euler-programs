@@ -12,7 +12,7 @@ Hexagons are distinct if and only if they are not <b>congruent</b>.</p>
 Find <var>H</var>(55106).</p>
 
 <div class="center">
-<img src="project/images/p600_equiangular_hexagons.png" alt="p600-equiangular-hexagons.png" border="5" />
+<img src="https://projecteuler.net/project/images/p600_equiangular_hexagons.png" alt="p600-equiangular-hexagons.png" border="5" />
 <p><i>Equiangular hexagons with perimeter not exceeding 12</i></p>
 </div>
 

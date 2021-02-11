@@ -13,7 +13,7 @@ You are given that $F(1) = 2$, $F(3) = 3$,  $F(9) = 6$, $F(11) = 7$, $F(100) = 3
 Below is the graph of a function reaching the maximum 3 for $N=3$:
 </p>
 <div class="center">
-<img src="project/images/p604_convex3.png" alt="p604_convex3.png" /></div>
+<img src="https://projecteuler.net/project/images/p604_convex3.png" alt="p604_convex3.png" /></div>
 <p>
 Find $F(10^{18})$.
 </p>

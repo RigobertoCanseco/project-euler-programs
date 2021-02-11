@@ -12,7 +12,7 @@ A line is drawn from the bottom left of the square to the top right as shown in 
 We shall call the orange shaded region a concave triangle.
 </p>
 <div class="center">
-<img src="project/images/p587_concave_triangle_1.png" class="dark_img" alt="p587_concave_triangle_1.png" />
+<img src="https://projecteuler.net/project/images/p587_concave_triangle_1.png" class="dark_img" alt="p587_concave_triangle_1.png" />
 </div>
 <p>
 It should be clear that the concave triangle occupies exactly half of the L-section.
@@ -22,7 +22,7 @@ It should be clear that the concave triangle occupies exactly half of the L-sect
 Two circles are placed next to each other horizontally, a rectangle is drawn around both circles, and a line is drawn from the bottom left to the top right as shown in the diagram below.
 </p>
 <div class="center">
-<img src="project/images/p587_concave_triangle_2.png" class="dark_img" alt="p587_concave_triangle_2.png" />
+<img src="https://projecteuler.net/project/images/p587_concave_triangle_2.png" class="dark_img" alt="p587_concave_triangle_2.png" />
 </div>
 <p>
 This time the concave triangle occupies approximately 36.46% of the L-section.

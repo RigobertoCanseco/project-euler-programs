@@ -10,7 +10,7 @@ When we cut the sheet along the grid lines into two pieces and rearrange those p
 <p>For example, from a sheet with dimensions 9 × 4 , we can make rectangles with dimensions 18 × 2, 12 × 3 and 6 × 6 by cutting and rearranging as below:</p>
 
 <div align="center">
-<img src="project/images/p338_gridpaper.gif" alt="p338_gridpaper.gif" /><br /></div>
+<img src="https://projecteuler.net/project/images/p338_gridpaper.gif" alt="p338_gridpaper.gif" /><br /></div>
 
 <p>Similarly, from a sheet with dimensions 9 × 8 , we can make rectangles with dimensions 18 × 4 and 12 × 6 .</p>
 

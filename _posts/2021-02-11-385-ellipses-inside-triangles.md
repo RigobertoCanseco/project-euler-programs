@@ -8,7 +8,7 @@ mathjax: true
 <p>
 For any triangle <var>T</var> in the plane, it can be shown that there is a unique ellipse with largest area that is completely inside <var>T</var>.
 </p><p align="center">
-<img src="project/images/p385_ellipsetriangle.png" alt="p385_ellipsetriangle.png" /></p>
+<img src="https://projecteuler.net/project/images/p385_ellipsetriangle.png" alt="p385_ellipsetriangle.png" /></p>
 <p>
 For a given <var>n</var>, consider triangles <var>T</var> such that:<br />
 - the vertices of <var>T</var> have integer coordinates with absolute value ≤ n, and <br />

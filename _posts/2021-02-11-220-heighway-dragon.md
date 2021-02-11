@@ -17,7 +17,7 @@ mathjax: true
 <p>Then <b><i>D</i></b><sub>n</sub> is an exotic drawing known as the <i>Heighway Dragon</i> of order <i>n</i>.  For example, <b><i>D</i></b><sub>10</sub> is shown below; counting each "F" as one step, the highlighted spot at (18,16) is the position reached after 500 steps.</p>
 
 <div class="center">
-<img src="project/images/p220.gif" class="dark_img" alt="" /></div>
+<img src="https://projecteuler.net/project/images/p220.gif" class="dark_img" alt="" /></div>
 
 <p>What is the position of the cursor after 10<sup>12</sup> steps in <b><i>D</i></b><sub>50</sub> ?<br />
 Give your answer in the form <i>x</i>,<i>y</i> with no spaces.</p>

@@ -18,5 +18,5 @@ $$
 \end{pmatrix}
 $$
 </div>
-<p>Find the minimal path sum from the left column to the right column in <a href="project/resources/p082_matrix.txt">matrix.txt</a> (right click and "Save Link/Target As..."), a 31K text file containing an 80 by 80 matrix.</p>
+<p>Find the minimal path sum from the left column to the right column in <a href="https://projecteuler.net/project/resources/p082_matrix.txt">matrix.txt</a> (right click and "Save Link/Target As..."), a 31K text file containing an 80 by 80 matrix.</p>
 ---

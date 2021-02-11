@@ -12,7 +12,7 @@ For a polygon $P$, let $t(P)$ be the number of ways in which $P$ can be tiled us
 For example, if $O$ is a regular octagon with edge length 1, then $t(O) = 8$. As it happens, all these 8 tilings are rotations of one another:
 </p>
 <div class="center">
-<img src="project/images/p594_octagon_tilings_1.png" alt="p594_octagon_tilings_1.png" />
+<img src="https://projecteuler.net/project/images/p594_octagon_tilings_1.png" alt="p594_octagon_tilings_1.png" />
 </div>
 <p>
 Let $O_{a,b}$ be the equal-angled convex octagon whose edges alternate in length between $a$ and $b$.
@@ -20,7 +20,7 @@ Let $O_{a,b}$ be the equal-angled convex octagon whose edges alternate in length
 For example, here is $O_{2,1}$, with one of its tilings:
 </p>
 <div class="center">
-<img src="project/images/p594_octagon_tilings_2.png" alt="p594_octagon_tilings_2.png" />
+<img src="https://projecteuler.net/project/images/p594_octagon_tilings_2.png" alt="p594_octagon_tilings_2.png" />
 </div>
 
 <p>

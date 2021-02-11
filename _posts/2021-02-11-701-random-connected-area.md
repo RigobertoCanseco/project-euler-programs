@@ -13,7 +13,7 @@ Define $E(W,H)$ to be the expected value of this maximum area.
 For example, $E(2,2)=1.875$, as illustrated below.
 </p>
 <div class="center">
-<img src="project/images/p701_randcon.png" alt="3 random connected area" />
+<img src="https://projecteuler.net/project/images/p701_randcon.png" alt="3 random connected area" />
 </div>
 <p>
 You are also given $E(4, 4) = 5.76487732$, rounded to 8 decimal places.

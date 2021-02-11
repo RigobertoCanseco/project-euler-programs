@@ -10,7 +10,7 @@ mathjax: true
 <p>Consider the example, shown below, where $n=8$ and $k=3$ and the initial state is one coin showing tails (black). The example shows a solution for this state.</p>
 
 <div class="center">
-<img src="project/images/p728_coin_circle.jpg" class="dark_img" alt="" /></div>
+<img src="https://projecteuler.net/project/images/p728_coin_circle.jpg" class="dark_img" alt="" /></div>
 
 <p>For given values of $n$ and $k$ not all states are solvable.  Let $F(n,k)$ be the number of states that are solvable. You are given that $F(3,2) = 4$, $F(8,3) = 256$ and $F(9,3) = 128$.</p>
 

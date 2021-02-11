@@ -18,7 +18,7 @@ For example, $f(3)=2$, illustrated by the two open positions for a $3  \times 3$
 
 </p>
 <table align="center"><tr>
-<td><img src="project/images/p628_chess4.png" alt="Open position 1" /></td><td width="60"></td><td><img src="project/images/p628_chess5.png" alt="Open position 2" /></td>
+<td><img src="https://projecteuler.net/project/images/p628_chess4.png" alt="Open position 1" /></td><td width="60"></td><td><img src="https://projecteuler.net/project/images/p628_chess5.png" alt="Open position 2" /></td>
 </tr>
 </table>
 <p>

@@ -12,14 +12,14 @@ For <var>n</var> &gt; 0, let <var>T</var>(<var>n</var>) be obtained from <var>T<
 </p>
 
 <div align="center">
-<img src="project/images/p405_tile1.png" alt="p405_tile1.png" /></div>
+<img src="https://projecteuler.net/project/images/p405_tile1.png" alt="p405_tile1.png" /></div>
 
 <p>
 The following animation demonstrates the tilings <var>T</var>(<var>n</var>) for <var>n</var> from 0 to 5:
 </p>
 
 <div align="center">
-<img src="project/images/p405_tile2.gif" alt="p405_tile2.gif" /></div>
+<img src="https://projecteuler.net/project/images/p405_tile2.gif" alt="p405_tile2.gif" /></div>
 
 <p>
 Let <var>f</var>(<var>n</var>) be the number of points where four tiles meet in <var>T</var>(<var>n</var>).<br />

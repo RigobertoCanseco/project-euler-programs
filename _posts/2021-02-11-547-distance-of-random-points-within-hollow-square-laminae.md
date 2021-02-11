@@ -13,11 +13,11 @@ mathjax: true
 
 <p>For <var>n</var> = 3 there exists only one hollow square lamina:</p>
 
-<p align="center"><img src="project/images/p547-holes-1.png" alt="p547-holes-1.png" /></p>
+<p align="center"><img src="https://projecteuler.net/project/images/p547-holes-1.png" alt="p547-holes-1.png" /></p>
 
 <p>For <var>n</var> = 4 you can find 9 distinct hollow square laminae, allowing shapes to reappear in rotated or mirrored form:</p>
 
-<p align="center"><img src="project/images/p547-holes-2.png" alt="p547-holes-2.png" /></p>
+<p align="center"><img src="https://projecteuler.net/project/images/p547-holes-2.png" alt="p547-holes-2.png" /></p>
 
 <p>Let S(<var>n</var>) be the sum of the expected distance between two points chosen randomly within each of the possible hollow square laminae of size <var>n</var>. The two points have to lie within the area left after removing the inner rectangle, i.e. the gray-colored areas in the illustrations above.</p>
 

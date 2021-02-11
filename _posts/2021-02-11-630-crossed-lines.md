@@ -8,7 +8,7 @@ mathjax: true
 <p>
 Given a set, $L$, of unique lines, let $M(L)$ be the number of lines in the set and let $S(L)$ be the sum over every line of the number of times that line is crossed by another line in the set.  For example, two sets of three lines are shown below:
 </p>
-<div align="center"><img src="project/images/p630_threelines.png" alt="crossed lines" /></div>
+<div align="center"><img src="https://projecteuler.net/project/images/p630_threelines.png" alt="crossed lines" /></div>
 <p>
 In both cases M(L) is 3 and S(L) is 6: each of the three lines is crossed by two other lines.  Note that even if the lines cross at a single point, all of the separate crossings of lines are counted.
 </p>

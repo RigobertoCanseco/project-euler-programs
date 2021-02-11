@@ -9,7 +9,7 @@ mathjax: true
 The vertices of these triangles constitute a triangular lattice with $\frac{(n+1)(n+2)} 2$ lattice points.</p>
 <p>Let $H(n)$ be the number of all regular hexagons that can be found by connecting 6 of these points.</p> 
 <div class="center">
-<img src="project/images/p577_counting_hexagons.png" alt="p577_counting_hexagons.png" />
+<img src="https://projecteuler.net/project/images/p577_counting_hexagons.png" alt="p577_counting_hexagons.png" />
 </div>
 
 <p>

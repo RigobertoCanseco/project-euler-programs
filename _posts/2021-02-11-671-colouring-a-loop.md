@@ -17,13 +17,13 @@ mathjax: true
 <p>For example, the following is an acceptable tiling of a $2\times 23$ loop with $k=4$ (blue, green, red and yellow):</p>
 
 <div class="center">
-<img src="project/images/p671_loop_acceptable.png" alt="Acceptable colouring" />
+<img src="https://projecteuler.net/project/images/p671_loop_acceptable.png" alt="Acceptable colouring" />
 </div>
 
 <p>but the following is not an acceptable tiling, because it violates the "no four corners meeting at a point" rule:</p>
 
 <div class="center">
-<img src="project/images/p671_loop_unacceptable.png" alt="Unacceptable colouring" />
+<img src="https://projecteuler.net/project/images/p671_loop_unacceptable.png" alt="Unacceptable colouring" />
 </div>
 
 <p>Let $F_k(n)$ be the number of ways the $2\times n$ loop can be tiled subject to these rules when $k$ colours are available. (Not all $k$ colours have to be used.) Where reflecting horizontally or vertically would give a different tiling, these tilings are to be counted separately.</p>

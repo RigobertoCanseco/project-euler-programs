@@ -15,7 +15,7 @@ Let T(<var>N</var>) be the number of possibilities that <var>N</var> seats are o
 
 
 <div align="center">
-<img src="project/images/p364_comf_dist.gif" class="dark_img" alt="p364_comf_dist.gif" /></div>
+<img src="https://projecteuler.net/project/images/p364_comf_dist.gif" class="dark_img" alt="p364_comf_dist.gif" /></div>
 
 <p>We can verify that T(10) = 61632 and T(1 000) mod 100 000 007 = 47255094.</p>
 <p>Find T(1 000 000) mod 100 000 007.</p>

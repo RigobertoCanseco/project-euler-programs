@@ -10,7 +10,7 @@ Frodo and Sam need to travel 100 leagues due East from point A to point B. On no
 </p>
 
 <div class="center">
-<img src="project/images/p607_marsh.png" alt="p607_marsh.png" /></div>
+<img src="https://projecteuler.net/project/images/p607_marsh.png" alt="p607_marsh.png" /></div>
 
 
 <p>

@@ -17,13 +17,13 @@ mathjax: true
 <p>For example, the following is an acceptable tiling of a $2\times 12$ rectangle:</p>
 
 <div class="center">
-<img src="project/images/p670_strip_acceptable.png" alt="Acceptable colouring" />
+<img src="https://projecteuler.net/project/images/p670_strip_acceptable.png" alt="Acceptable colouring" />
 </div>
 
 <p>but the following is not an acceptable tiling, because it violates the "no four corners meeting at a point" rule:</p>
 
 <div class="center">
-<img src="project/images/p670_strip_unacceptable.png" alt="Unacceptable colouring" />
+<img src="https://projecteuler.net/project/images/p670_strip_unacceptable.png" alt="Unacceptable colouring" />
 </div>
 
 <p>Let $F(n)$ be the number of ways the $2\times n$ rectangle can be tiled subject to these rules. Where reflecting horizontally or vertically would give a different tiling, these tilings are to be counted separately.</p>

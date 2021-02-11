@@ -8,7 +8,7 @@ mathjax: true
 <p>In a triangular array of positive and negative integers, we wish to find a sub-triangle such that the sum of the numbers it contains is the smallest possible.</p>
 <p>In the example below, it can be easily verified that the marked triangle satisfies this condition having a sum of −42.</p>
 <div class="center">
-<img src="project/images/p150.gif" class="dark_img" alt="" /></div>
+<img src="https://projecteuler.net/project/images/p150.gif" class="dark_img" alt="" /></div>
 <p>We wish to make such a triangular array with one thousand rows, so we generate 500500 pseudo-random numbers <span style="font-style:italic;">s<sub>k</sub></span> in the range ±2<sup>19</sup>, using a type of random number generator (known as a Linear Congruential Generator) as follows:</p>
 <p class="margin_left"><span style="font-style:italic;">t</span> := 0
 <br />

@@ -15,13 +15,13 @@ mathjax: true
 </ol>
 
 <div class="center">
-<img src="project/images/p664_moves.gif" alt="Allowed moves" />
+<img src="https://projecteuler.net/project/images/p664_moves.gif" alt="Allowed moves" />
 </div>
 
 <p>The board is marked with a line called the <i>dividing line</i>. Initially, every square to the left of the dividing line contains a token, and every square to the right of the dividing line is empty:</p>
 
 <div class="center">
-<img src="project/images/p664_starting_0.png" alt="Initial setup" />
+<img src="https://projecteuler.net/project/images/p664_starting_0.png" alt="Initial setup" />
 </div>
 
 <p>Peter's goal is to get a token as far as possible to the right in a finite number of moves. However, he quickly finds out that, even with his infinite supply of tokens, he cannot move a token more than four squares beyond the dividing line.</p>
@@ -29,7 +29,7 @@ mathjax: true
 <p>Peter then considers starting configurations with larger supplies of tokens: each square in the $d$th column to the left of the dividing line starts with $d^n$ tokens instead of 1. This is illustrated below for $n=1$:</p>
 
 <div class="center">
-<img src="project/images/p664_starting_1.png" alt="Initial setup n=1" />
+<img src="https://projecteuler.net/project/images/p664_starting_1.png" alt="Initial setup n=1" />
 </div>
 
 <p>Let $F(n)$ be the maximum number of squares Peter can move a token beyond the dividing line. For example, $F(0)=4$.

@@ -8,7 +8,7 @@ mathjax: true
 <p>2<sup>N</sup> binary digits can be placed in a circle so that all the N-digit clockwise subsequences are distinct.</p>
 
 <p>For N=3, two such circular arrangements are possible, ignoring rotations:</p>
-<div align="center"><img src="project/images/p265_BinaryCircles.gif" class="dark_img" alt="p265_BinaryCircles.gif" /></div>
+<div align="center"><img src="https://projecteuler.net/project/images/p265_BinaryCircles.gif" class="dark_img" alt="p265_BinaryCircles.gif" /></div>
 
 <p>For the first arrangement, the 3-digit subsequences, in clockwise order, are:<br /> 000, 001, 010, 101, 011, 111, 110 and 100.</p>
 

@@ -7,7 +7,7 @@ mathjax: true
 
 <p>On a chess board, a centaur moves like a king or a knight. The diagram below shows the valid moves of a centaur (represented by an inverted king) on an 8x8 board.</p>
 
-<div align="center"><img src="project/images/p554-centaurs.png" alt="p554-centaurs.png" /></div>
+<div align="center"><img src="https://projecteuler.net/project/images/p554-centaurs.png" alt="p554-centaurs.png" /></div>
 
 <p>It can be shown that at most <var>n</var><sup>2</sup> non-attacking centaurs can be placed on a board of size 2<var>n</var>×2<var>n</var>.<br />
 Let <var>C</var>(<var>n</var>) be the number of ways to place <var>n</var><sup>2</sup> centaurs on a 2<var>n</var>×2<var>n</var> board so that no centaur attacks another directly.<br />

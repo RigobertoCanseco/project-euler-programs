@@ -18,7 +18,7 @@ mathjax: true
 <li>The castle is made from an even number of blocks.</li>
 </ol><p>The following is a sample castle for <var>w</var>=8 and <var>h</var>=5:</p>
 
-<p align="center"><img src="project/images/p502_castles.png" alt="p502_castles.png" /></p>
+<p align="center"><img src="https://projecteuler.net/project/images/p502_castles.png" alt="p502_castles.png" /></p>
 
 <p>Let F(<var>w</var>,<var>h</var>) represent the number of valid castles, given grid parameters <var>w</var> and <var>h</var>.</p>
 

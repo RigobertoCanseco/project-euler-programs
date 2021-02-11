@@ -16,7 +16,7 @@ We use the term 'size' to denote the floor surface area of the room, and — wit
 <p>There is one rule to follow when laying out tatami: there must be no points where corners of four different mats meet.<br />
 For example, consider the two arrangements below for a 4×4 room:</p>
 <div align="center">
-<img src="project/images/p256_tatami3.gif" alt="p256_tatami3.gif" /><br /></div>
+<img src="https://projecteuler.net/project/images/p256_tatami3.gif" alt="p256_tatami3.gif" /><br /></div>
 
 <p>The arrangement on the left is acceptable, whereas the one on the right is not: a red "<span style="color:#FF0000;"><b>X</b></span>" in the middle, marks the point where four tatami meet.</p>
 

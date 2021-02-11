@@ -9,7 +9,7 @@ mathjax: true
 </p>
 
 <div align="center">
-<img src="project/images/p351_hexorchard.png" class="dark_img" alt="p351_hexorchard.png" /><br /></div>
+<img src="https://projecteuler.net/project/images/p351_hexorchard.png" class="dark_img" alt="p351_hexorchard.png" /><br /></div>
 
 <p>
 Highlighted in green are the points which are hidden from the center by a point closer to it. It can be seen that for a hexagonal orchard of order 5, 30 points are hidden from the center.

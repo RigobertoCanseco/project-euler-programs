@@ -15,7 +15,7 @@ Consider rectilinear grids in the Cartesian coordinate system with the following
 <p>
 E.g. here is a picture of the solution for N = 10:
 </p><p align="center">
-<img src="project/images/p392_gridlines.png" alt="p392_gridlines.png" /></p>
+<img src="https://projecteuler.net/project/images/p392_gridlines.png" alt="p392_gridlines.png" /></p>
 
 
 The area occupied by the red cells for N = 10 rounded to 10 digits behind the decimal point is 3.3469640797.

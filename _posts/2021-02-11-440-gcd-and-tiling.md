@@ -7,12 +7,12 @@ mathjax: true
 
 <p>We want to tile a board of length <var>n</var> and height 1 completely, with either 1 × 2 blocks or 1 × 1 blocks with a single decimal digit on top:</p>
 <div class="center">
-<img src="project/images/p440_tiles.png" alt="p440_tiles.png" />
+<img src="https://projecteuler.net/project/images/p440_tiles.png" alt="p440_tiles.png" />
 </div>
 <p>For example, here are some of the ways to tile a board of length <var>n</var> = 8:</p>
 
 <div class="center">
-<img src="project/images/p440_some8.png" alt="p440_some8.png" />
+<img src="https://projecteuler.net/project/images/p440_some8.png" alt="p440_some8.png" />
 </div>
 <p>Let T(<var>n</var>) be the number of ways to tile a board of length <var>n</var> as described above.</p>
 

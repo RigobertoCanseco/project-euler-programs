@@ -14,7 +14,7 @@ mathjax: true
 <p>Suppose there are $n=7$ knights and 7 chairs at the roundtable, in addition to the king’s throne. After some trial and error, they come up with the following seating arrangement (K represents the king):</p>
 
 <div class="center">
-<img src="project/images/p669_roundtable.png" alt="Roundtable" />
+<img src="https://projecteuler.net/project/images/p669_roundtable.png" alt="Roundtable" />
 </div>
 
 <p>Notice that the sums $4+1$, $1+7$, $7+6$, $6+2$, $2+3$, and $3+5$ are all Fibonacci numbers, as required. It should also be mentioned that the king always prefers an arrangement where the knight to the his left has a smaller number than the knight to his right. With this additional rule, the above arrangement is unique for $n=7$, and the knight sitting in the 3rd chair from the king’s left is knight number 7.</p>

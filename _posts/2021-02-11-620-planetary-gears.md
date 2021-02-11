@@ -14,7 +14,7 @@ mathjax: true
 <p>Define $g(c,s,p,q)$ to be the number of such gear arrangements for given values of $c$, $s$, $p$, $q$: it turns out that this is finite as only certain discrete arrangements are possible satisfying the above conditions. For example, $g(16,5,5,6)=9$.</p>
 
 <p>Here is one such arrangement:</p>
-<div align="center"><img src="project/images/p620_planetary_gears.png" alt="Example arrangement" /></div>
+<div align="center"><img src="https://projecteuler.net/project/images/p620_planetary_gears.png" alt="Example arrangement" /></div>
 
 <p>Let $G(n) = \sum_{s+p+q\le n} g(s+p+q,s,p,q)$ where the sum only includes cases with $p&lt;q$, $p\ge 5$, and $s\ge 5$, all integers. You are given that $G(16)=9$ and $G(20)=205$.</p>
 

@@ -11,7 +11,7 @@ E<sub><var>a</var></sub>' is the rotated image of E<sub><var>a</var></sub> by θ
 </p>
 
 <div align="center">
-<img src="project/images/p404_c_ellipse.gif" alt="p404_c_ellipse.gif" /></div>
+<img src="https://projecteuler.net/project/images/p404_c_ellipse.gif" alt="p404_c_ellipse.gif" /></div>
 
 <p>
 <var>b</var> is the distance to the origin of the two intersection points closest to the origin and <var>c</var> is the distance of the two other intersection points.<br />

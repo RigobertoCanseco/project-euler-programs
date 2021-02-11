@@ -13,7 +13,7 @@ mathjax: true
 </ul><p>The diagram shows one tour over a 4 × 10 board:</p>
 
 <div class="center">
-<img src="project/images/p237.gif" class="dark_img" alt="" /></div>
+<img src="https://projecteuler.net/project/images/p237.gif" class="dark_img" alt="" /></div>
 
 <p>T(10) is 2329. What is T(10<sup>12</sup>) modulo 10<sup>8</sup>?</p>
 ---

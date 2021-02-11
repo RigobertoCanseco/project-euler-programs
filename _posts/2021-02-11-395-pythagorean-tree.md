@@ -18,7 +18,7 @@ Start with a unit square. Then, calling one of the sides its base (in the animat
 The resulting figure, after an infinite number of iterations, is the Pythagorean tree.
 
 
-<div align="center"><img src="project/images/p395_pythagorean.gif" alt="p395_pythagorean.gif" /></div>
+<div align="center"><img src="https://projecteuler.net/project/images/p395_pythagorean.gif" alt="p395_pythagorean.gif" /></div>
 
 <p>
 It can be shown that there exists at least one rectangle, whose sides are parallel to the largest square of the Pythagorean tree, which encloses the Pythagorean tree completely.

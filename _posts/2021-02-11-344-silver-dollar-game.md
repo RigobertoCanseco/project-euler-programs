@@ -17,7 +17,7 @@ mathjax: true
 
 
 <div align="center">
-<img src="project/images/p344_silverdollar.gif" alt="p344_silverdollar.gif" /><br /></div>
+<img src="https://projecteuler.net/project/images/p344_silverdollar.gif" alt="p344_silverdollar.gif" /><br /></div>
 
 <p>A <i>winning configuration</i> is an arrangement of coins on the strip where the first player can force a win no matter what the second player does.</p>
 

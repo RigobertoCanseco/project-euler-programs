@@ -19,7 +19,7 @@ The first player who cannot make a move loses.</p>
 <li>$n = 5$: Four valid moves for the first player (shown below in red), but no matter what the player does, the second player (blue) wins.</li>
 </ul>
 
-<div class="center"><img src="project/images/p306_pstrip.gif" class="dark_img" alt="p306_pstrip.gif" /></div>
+<div class="center"><img src="https://projecteuler.net/project/images/p306_pstrip.gif" class="dark_img" alt="p306_pstrip.gif" /></div>
 
 <p>So, for $1 \le n \le 5$, there are 3 values of $n$ for which the first player can force a win.<br />
 Similarly, for $1 \le n \le 50$, there are 40 values of $n$ for which the first player can force a win.</p>

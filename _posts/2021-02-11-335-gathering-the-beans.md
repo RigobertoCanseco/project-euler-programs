@@ -7,7 +7,7 @@ mathjax: true
 
 <p>Whenever Peter feels bored, he places some bowls, containing one bean each, in a circle. After this, he takes all the beans out of a certain bowl and drops them one by one in the bowls going clockwise. He repeats this, starting from the bowl he dropped the last bean in, until the initial situation appears again. For example with 5 bowls he acts as follows:</p>
 
-<div align="center"><img src="project/images/p335_mancala.gif" class="dark_img" alt="p335_mancala.gif" /></div>
+<div align="center"><img src="https://projecteuler.net/project/images/p335_mancala.gif" class="dark_img" alt="p335_mancala.gif" /></div>
 
 <p>So with 5 bowls it takes Peter 15 moves to return to the initial situation.</p>
 

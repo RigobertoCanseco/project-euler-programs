@@ -25,7 +25,7 @@ adding every point in <var>S</var> to every point in <var>T</var>, where point a
 <p>For example, the sum of <var>S</var><sub>3</sub> and <var>S</var><sub>4</sub> is the six-sided shape shown in pink below:</p>
 
 <div class="center">
-<img src="project/images/p228.png" class="dark_img" alt="picture showing S_3 + S_4" /></div>
+<img src="https://projecteuler.net/project/images/p228.png" class="dark_img" alt="picture showing S_3 + S_4" /></div>
 
 <p>How many sides does <var>S</var><sub>1864</sub> + <var>S</var><sub>1865</sub> + … + <var>S</var><sub>1909</sub> have?</p>
 ---

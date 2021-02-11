@@ -15,7 +15,7 @@ The player who is forced to take the root node of the entire tree loses.</p><p>
 
 </p><p>
 Here are the winning moves of the first player on the first turn for T(<var>k</var>) from <var>k</var>=1 to <var>k</var>=6.
-</p><p align="center"><img src="project/images/p400_winning.png" class="dark_img" alt="p400_winning.png" /></p>
+</p><p align="center"><img src="https://projecteuler.net/project/images/p400_winning.png" class="dark_img" alt="p400_winning.png" /></p>
 
 
 

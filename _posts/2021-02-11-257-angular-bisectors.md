@@ -11,7 +11,7 @@ mathjax: true
 The angular bisectors of the triangle intersect the sides at points E, F and G (see picture below).
 </p>
 <div align="center">
-<img src="project/images/p257_bisector.gif" class="dark_img" alt="p257_bisector.gif" /><br /></div>
+<img src="https://projecteuler.net/project/images/p257_bisector.gif" class="dark_img" alt="p257_bisector.gif" /><br /></div>
 <p>
 The segments EF, EG and FG partition the triangle ABC into four smaller triangles: AEG, BFE, CGF and EFG.<br />
 It can be proven that for each of these four triangles the ratio area(ABC)/area(subtriangle) is rational.<br />

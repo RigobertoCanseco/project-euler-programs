@@ -5,9 +5,9 @@ mathjax: true
 **Problem 194**  
 [https://projecteuler.net/problem=194](https://projecteuler.net/problem=194)
 
-<p>Consider graphs built with the units A: <img src="project/images/p194_GraphA.png" style="vertical-align:middle;" class="dark_img" alt="" />
-and B: <img src="project/images/p194_GraphB.png" style="vertical-align:middle;" class="dark_img" alt="" />, where the units are glued along
-the vertical edges as in the graph <img src="project/images/p194_Fig.png" class="dark_img" style="vertical-align:middle;" alt="" />.</p>
+<p>Consider graphs built with the units A: <img src="https://projecteuler.net/project/images/p194_GraphA.png" style="vertical-align:middle;" class="dark_img" alt="" />
+and B: <img src="https://projecteuler.net/project/images/p194_GraphB.png" style="vertical-align:middle;" class="dark_img" alt="" />, where the units are glued along
+the vertical edges as in the graph <img src="https://projecteuler.net/project/images/p194_Fig.png" class="dark_img" style="vertical-align:middle;" alt="" />.</p>
 
 <p>A configuration of type (<var>a</var>,<var>b</var>,<var>c</var>) is a graph thus built of <var>a</var> units A and <var>b</var> units B, where the graph's vertices are coloured using up to <var>c</var> colours, so that no two adjacent vertices have the same colour.<br />
 The compound graph above is an example of a configuration of type (2,2,6), in fact of type (2,2,<var>c</var>) for all <var>c</var> ≥ 4.</p>

@@ -18,7 +18,7 @@ mathjax: true
 
 <p>The following animation depicts a side-view of a sample game for <var>n</var> = 3, <var>k</var> = 7, <var>a</var> = 2, <var>b</var> = 4, and <var>c</var> = 6:</p>
 
-<p align="center"><img src="project/images/p497_hanoi.gif" alt="p497_hanoi.gif" /></p>
+<p align="center"><img src="https://projecteuler.net/project/images/p497_hanoi.gif" alt="p497_hanoi.gif" /></p>
 
 <p>Let E(<var>n</var>,<var>k</var>,<var>a</var>,<var>b</var>,<var>c</var>) be the expected number of squares that Bob travels during a single optimally-played game. A game is played optimally if the number of disk-pickups is minimized.</p>
 

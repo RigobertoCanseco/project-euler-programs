@@ -10,7 +10,7 @@ mathjax: true
 <p>As illustrated below, the squares may be positioned in two different ways, either "straight" by placing the midpoints of two opposite sides on the line segment, or "diagonal" by placing two opposite corners on the line segment. Newly placed squares may touch other squares, but are not allowed to overlap any other square laid down before.<br />
 The player who is able to place the last unit square onto the line segment wins.</p>
 <div class="center">
-<img src="project/images/p644_squareline.png" alt="p644_squareline.png" />
+<img src="https://projecteuler.net/project/images/p644_squareline.png" alt="p644_squareline.png" />
 </div>
 <p>
 With Sam starting each game by placing the first square, they quickly realise that Sam can easily win every time by placing the first square in the middle of the line segment, making the game boring. </p>

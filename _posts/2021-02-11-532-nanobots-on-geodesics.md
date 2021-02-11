@@ -13,7 +13,7 @@ mathjax: true
 
 <p>Using three bots, Bob finds that every bot will draw a line of length 2.84, resulting in a total length of 8.52 for all three bots, each time rounded to two decimal places. The coloured ball looks like this:</p>
 
-<div align="center"><img src="project/images/p532-nanobots.jpg" alt="p532-nanobots.jpg" /></div>
+<div align="center"><img src="https://projecteuler.net/project/images/p532-nanobots.jpg" alt="p532-nanobots.jpg" /></div>
 
 <p>In order to show off a little with his presents, Bob decides to use just enough bots to make sure that the line each bot draws is longer than 1000. What is the total length of all lines drawn with this number of bots, rounded to two decimal places?</p>
 

@@ -10,7 +10,7 @@ mathjax: true
 <p>For this problem, a polygon can have collinear consecutive vertices. However, a polygon still cannot have self-intersection and cannot have zero area.</p>
 
 <p>For example, only the first of the following is a polar polygon (the kernels of the second, third, and fourth do not strictly contain the origin, and the fifth does not have a kernel at all):
-</p><p align="center"><img src="project/images/p465_polygons.png" alt="p465_polygons.png" /></p>
+</p><p align="center"><img src="https://projecteuler.net/project/images/p465_polygons.png" alt="p465_polygons.png" /></p>
 
 
 <p>Notice that the first polygon has three consecutive collinear vertices.</p>

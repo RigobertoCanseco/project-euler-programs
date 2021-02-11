@@ -29,7 +29,7 @@ and desk pairing<br />
 $(1,35)(2,22)(3,36)(4,28)(5,25)(7,18)(9,23)(13,19)(14,33)(15,34)(20,24)(26,29)(27,30)$<br />
 then among the $36!$ possible permutations (including the identity permutation), 663552 of them satisfy the conditions stipulated by the students.</p>
 
-<p>The downloadable text files <a href="project/resources/p673_beds.txt">beds.txt</a> and <a href="project/resources/p673_desks.txt">desks.txt</a> contain pairings for $n=500$. Each pairing is written on its own line, with the student numbers of the two roommates (or desk partners) separated with a comma. For example, the desk pairing in the $n=4$ example above would be represented in this file format as:</p>
+<p>The downloadable text files <a href="https://projecteuler.net/project/resources/p673_beds.txt">beds.txt</a> and <a href="https://projecteuler.net/project/resources/p673_desks.txt">desks.txt</a> contain pairings for $n=500$. Each pairing is written on its own line, with the student numbers of the two roommates (or desk partners) separated with a comma. For example, the desk pairing in the $n=4$ example above would be represented in this file format as:</p>
 <pre>
 1,3
 2,4

@@ -9,7 +9,7 @@ mathjax: true
 An m×n maze is an m×n rectangular grid with walls placed between grid cells such that there is exactly one path from the top-left square to any other square. <br />The following are examples of a 9×12 maze and a 15×20 maze:
 </p>
 <p class="center">
-<img src="project/images/p380_mazes.gif" class="dark_img" alt="p380_mazes.gif" /></p>
+<img src="https://projecteuler.net/project/images/p380_mazes.gif" class="dark_img" alt="p380_mazes.gif" /></p>
 <p>
 Let C(m,n) be the number of distinct m×n mazes. Mazes which can be formed by rotation and reflection from another maze are considered distinct.
 </p>

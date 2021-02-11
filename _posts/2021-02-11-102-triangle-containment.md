@@ -10,7 +10,7 @@ mathjax: true
 <p class="center">A(-340,495), B(-153,-910), C(835,-947)<br /><br />
 X(-175,41), Y(-421,-714), Z(574,-645)</p>
 <p>It can be verified that triangle ABC contains the origin, whereas triangle XYZ does not.</p>
-<p>Using <a href="project/resources/p102_triangles.txt">triangles.txt</a> (right click and 'Save Link/Target As...'), a 27K text file containing the co-ordinates of one thousand "random" triangles, find the number of triangles for which the interior contains the origin.</p>
+<p>Using <a href="https://projecteuler.net/project/resources/p102_triangles.txt">triangles.txt</a> (right click and 'Save Link/Target As...'), a 27K text file containing the co-ordinates of one thousand "random" triangles, find the number of triangles for which the interior contains the origin.</p>
 <p class="smaller">NOTE: The first two examples in the file represent the triangles in the example given above.</p>
 
 ---

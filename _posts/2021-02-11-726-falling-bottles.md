@@ -9,7 +9,7 @@ mathjax: true
 Consider a stack of bottles of wine. There are $n$ layers in the stack with the top layer containing only one bottle and the bottom layer containing $n$ bottles. For $n=4$ the stack looks like the picture below.
 </p>
 <div class="center">
-<img src="project/images/p726_FallingBottles.jpg" class="dark_img" alt="" /></div>
+<img src="https://projecteuler.net/project/images/p726_FallingBottles.jpg" class="dark_img" alt="" /></div>
 <p>
 The <i>collapsing process</i> happens every time a bottle is taken. A space is created in the stack and that space is filled according to the following recursive steps:
 </p><ul>

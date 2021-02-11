@@ -10,7 +10,7 @@ mathjax: true
 <p>For example, the following 9×3 wall is not acceptable due to the running crack shown in red:</p>
 
 <div class="center">
-<img src="project/images/p215_crackfree.gif" class="dark_img" alt="" /></div>
+<img src="https://projecteuler.net/project/images/p215_crackfree.gif" class="dark_img" alt="" /></div>
 
 <p>There are eight ways of forming a crack-free 9×3 wall, written W(9,3) = 8.</p>
 
