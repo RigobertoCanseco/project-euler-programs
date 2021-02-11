@@ -15,7 +15,7 @@ entries:
       limit: 0
       show_more: true
       show_more_text: See all...
-      show_more_url: problems.html
+      show_more_url: problem.html
 
 #  - title: posts by category
 #    post_list:
