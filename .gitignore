@@ -26,3 +26,5 @@ cmake-build-debug/
 _site
 vendor
 Gemfile.lock
+venv/
+.idea/
