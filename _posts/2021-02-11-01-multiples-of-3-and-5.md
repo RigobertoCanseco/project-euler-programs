@@ -1,6 +1,7 @@
 ---
 layout: post
 mathjax: true
+category: resolved
 ---
 **Problem 01**  
 [https://projecteuler.net/problem=01](https://projecteuler.net/problem=01)
