@@ -1,11 +1,11 @@
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
-/*  filter: invert(1);
+  filter: invert(1);
   img {
     filter: invert(1);
 
     &.ioda { filter: invert(0); }
-  }*/
+  }
 }
 
 body[a="dark"] { @include dark-appearance; }
@@ -67,8 +67,8 @@ table, th, td {
 }
 
 code {
-  color: white;
-  background: black;
+  background: white;
+  color: #222222;
 }
 
 div.highlighter-rouge code {

@@ -21,4 +21,5 @@ mathjax: true
 <p>You are given $A(4) = 1$, $A(8) = 7$, $A(40) = 1039$ and $A(100) = 17473$.</p>
 
 <p>Find $A(1000)$.</p>
+
 ---

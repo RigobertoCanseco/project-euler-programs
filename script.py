@@ -53,4 +53,6 @@ def renames_files():
 
 
 if __name__ == '__main__':
-    pass
+    files = [f for f in listdir('_posts') if isfile(join('_posts', f))]
+    for i in files:
+        print('problems/' + i[11:])

@@ -10,3 +10,19 @@ mathjax: true
 <p>By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.</p>
 
 ---
+
+**Code**  `python`
+
+```python
+
+def fibonacci():
+    pass
+
+if __name__ == '__main__':
+    tmp = 1
+    f = 0
+    for i in range(10):
+        tmp = f + tmp  
+        f = tmp
+        print(f)
+```
