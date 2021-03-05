@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>554 Centaurs On A Chess Board</title>
+
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="554 Centaurs On A Chess Board" />
+<meta name="author" content="Rigoberto Canseco" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Problem 554 https://projecteuler.net/problem=554" />
+<meta property="og:description" content="Problem 554 https://projecteuler.net/problem=554" />
+<link rel="canonical" href="http://localhost:4000/project-euler-problems/554-centaurs-on-a-chess-board.html" />
+<meta property="og:url" content="http://localhost:4000/project-euler-problems/554-centaurs-on-a-chess-board.html" />
+<meta property="og:site_name" content="Project Euler" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-02-11T00:00:00-06:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"554 Centaurs On A Chess Board","dateModified":"2021-02-11T00:00:00-06:00","datePublished":"2021-02-11T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/project-euler-problems/554-centaurs-on-a-chess-board.html"},"author":{"@type":"Person","name":"Rigoberto Canseco"},"description":"Problem 554 https://projecteuler.net/problem=554","url":"http://localhost:4000/project-euler-problems/554-centaurs-on-a-chess-board.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/project-euler-problems/feed.xml" title="Project Euler" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="/project-euler-problems/logo.png" />
+  <link rel="stylesheet" href="/project-euler-problems/assets/css/main.css" />
+  <link rel="stylesheet" href="/project-euler-problems/assets/css/syntax.css" type="text/css" /><script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true,
+    },
+    CommonHTML: {
+      scale: 70,
+    }
+  });
+</script>
+<script type="text/javascript" async
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script></head><body a="auto">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <a href="/project-euler-problems/"><=</a>
+
+<article>
+  <h1>554 Centaurs On A Chess Board</h1>
+
+  <p><strong>Problem 554</strong><br />
+<a href="https://projecteuler.net/problem=554">https://projecteuler.net/problem=554</a></p>
+
+<p>On a chess board, a centaur moves like a king or a knight. The diagram below shows the valid moves of a centaur (represented by an inverted king) on an 8x8 board.</p>
+
+<div align="center"><img src="https://projecteuler.net/project/images/p554-centaurs.png" alt="p554-centaurs.png" /></div>
+
+<p>It can be shown that at most <var>n</var><sup>2</sup> non-attacking centaurs can be placed on a board of size 2<var>n</var>×2<var>n</var>.<br />
+Let <var>C</var>(<var>n</var>) be the number of ways to place <var>n</var><sup>2</sup> centaurs on a 2<var>n</var>×2<var>n</var> board so that no centaur attacks another directly.<br />
+For example <var>C</var>(1) = 4, <var>C</var>(2) = 25, <var>C</var>(10) = 1477721.</p>
+
+<p>Let <var>F<sub>i</sub></var> be the <var>i</var><sup>th</sup> Fibonacci number defined as <var>F</var><sub>1</sub> = <var>F</var><sub>2</sub> = 1 and <var>F</var><sub>i</sub> = <var>F</var><sub><var>i</var>-1</sub> + <var>F</var><sub><var>i</var>-2</sub> for <var>i</var> &gt; 2.</p>
+
+<p>Find $\displaystyle \left( \sum_{i=2}^{90} C(F_i) \right) \text{mod } (10^8+7)$.</p>
+<hr />
+
+</article>
+      </div>
+    </main>
+    
+  </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>325 Stone Game Ii</title>
+
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="325 Stone Game Ii" />
+<meta name="author" content="Rigoberto Canseco" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Problem 325 https://projecteuler.net/problem=325" />
+<meta property="og:description" content="Problem 325 https://projecteuler.net/problem=325" />
+<link rel="canonical" href="http://localhost:4000/project-euler-problems/325-stone-game-ii.html" />
+<meta property="og:url" content="http://localhost:4000/project-euler-problems/325-stone-game-ii.html" />
+<meta property="og:site_name" content="Project Euler" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-02-11T00:00:00-06:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"325 Stone Game Ii","dateModified":"2021-02-11T00:00:00-06:00","datePublished":"2021-02-11T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/project-euler-problems/325-stone-game-ii.html"},"author":{"@type":"Person","name":"Rigoberto Canseco"},"description":"Problem 325 https://projecteuler.net/problem=325","url":"http://localhost:4000/project-euler-problems/325-stone-game-ii.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/project-euler-problems/feed.xml" title="Project Euler" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="/project-euler-problems/logo.png" />
+  <link rel="stylesheet" href="/project-euler-problems/assets/css/main.css" />
+  <link rel="stylesheet" href="/project-euler-problems/assets/css/syntax.css" type="text/css" /><script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true,
+    },
+    CommonHTML: {
+      scale: 70,
+    }
+  });
+</script>
+<script type="text/javascript" async
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script></head><body a="auto">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <a href="/project-euler-problems/"><=</a>
+
+<article>
+  <h1>325 Stone Game Ii</h1>
+
+  <p><strong>Problem 325</strong><br />
+<a href="https://projecteuler.net/problem=325">https://projecteuler.net/problem=325</a></p>
+
+<p>A game is played with two piles of stones and two players.<br />
+On each player's turn, the player may remove a number of stones from the larger pile.<br />
+The number of stones removed must be a positive multiple of the number of stones in the smaller pile.</p>
+
+<p>E.g. Let the ordered pair $(6,14)$ describe a configuration with 6 stones in the smaller pile and 14 stones in the larger pile, then the first player can remove 6 or 12 stones from the larger pile.</p>
+
+<p>The player taking all the stones from a pile wins the game.</p>
+
+<p>A <dfn>winning configuration</dfn> is one where the first player can force a win. For example, $(1,5)$, $(2,6)$, and $(3,12)$ are winning configurations because the first player can immediately remove all stones in the second pile.</p>
+
+<p>A <dfn>losing configuration</dfn> is one where the second player can force a win, no matter what the first player does. For example, $(2,3)$ and $(3,4)$ are losing configurations: any legal move leaves a winning configuration for the second player.</p>
+
+<p>Define $S(N)$ as the sum of $(x_i + y_i)$ for all losing configurations $(x_i, y_i), 0 \lt x_i \lt y_i \le N$.<br />
+We can verify that $S(10) = 211$ and $S(10^4) = 230312207313$.</p>
+
+<p>Find $S(10^{16}) \mod 7^{10}$.</p>
+<hr />
+
+</article>
+      </div>
+    </main>
+    
+  </body>
+</html>

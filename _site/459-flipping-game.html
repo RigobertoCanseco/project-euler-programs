@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>459 Flipping Game</title>
+
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="459 Flipping Game" />
+<meta name="author" content="Rigoberto Canseco" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Problem 459 https://projecteuler.net/problem=459" />
+<meta property="og:description" content="Problem 459 https://projecteuler.net/problem=459" />
+<link rel="canonical" href="http://localhost:4000/project-euler-problems/459-flipping-game.html" />
+<meta property="og:url" content="http://localhost:4000/project-euler-problems/459-flipping-game.html" />
+<meta property="og:site_name" content="Project Euler" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-02-11T00:00:00-06:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"459 Flipping Game","dateModified":"2021-02-11T00:00:00-06:00","datePublished":"2021-02-11T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/project-euler-problems/459-flipping-game.html"},"author":{"@type":"Person","name":"Rigoberto Canseco"},"description":"Problem 459 https://projecteuler.net/problem=459","url":"http://localhost:4000/project-euler-problems/459-flipping-game.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/project-euler-problems/feed.xml" title="Project Euler" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="/project-euler-problems/logo.png" />
+  <link rel="stylesheet" href="/project-euler-problems/assets/css/main.css" />
+  <link rel="stylesheet" href="/project-euler-problems/assets/css/syntax.css" type="text/css" /><script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true,
+    },
+    CommonHTML: {
+      scale: 70,
+    }
+  });
+</script>
+<script type="text/javascript" async
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script></head><body a="auto">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <a href="/project-euler-problems/"><=</a>
+
+<article>
+  <h1>459 Flipping Game</h1>
+
+  <p><strong>Problem 459</strong><br />
+<a href="https://projecteuler.net/problem=459">https://projecteuler.net/problem=459</a></p>
+
+<p>The flipping game is a two player game played on a N by N square board.<br />
+Each square contains a disk with one side white and one side black.<br />
+The game starts with all disks showing their white side.</p>
+
+<p>A turn consists of flipping all disks in a rectangle with the following properties:
+</p>
+<p></p>
+<ul><li>the upper right corner of the rectangle contains a white disk</li>
+<li>the rectangle width is a perfect square (1, 4, 9, 16, ...)</li>
+<li>the rectangle height is a <dfn title="The triangular numbers are defined as ½ n(n + 1) for positive integer n.">triangular number</dfn> (1, 3, 6, 10, ...)</li>
+</ul>
+<p class="center"><img src="https://projecteuler.net/project/images/p459-flipping-game-0.png" alt="p459-flipping-game-0.png" /></p>
+
+<p>Players alternate turns. A player wins by turning the grid all black.</p>
+
+<p>Let W(N) be the number of <dfn title="The first move of a strategy that ensures a win no matter what the opponent plays.">winning moves</dfn> for the first player on a N by N board with all disks white, assuming perfect play.<br />
+W(1) = 1, W(2) = 0, W(5) = 8 and W(10<sup>2</sup>) = 31395.</p>
+
+<p>For N=5, the first player's eight winning first moves are:</p>
+
+<p class="center"><img src="https://projecteuler.net/project/images/p459-flipping-game-1.png" class="dark_img" alt="p459-flipping-game-1.png" /></p>
+
+<p>Find W(10<sup>6</sup>).</p>
+
+<hr />
+
+</article>
+      </div>
+    </main>
+    
+  </body>
+</html>

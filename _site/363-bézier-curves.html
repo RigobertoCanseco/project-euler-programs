@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>363 Bézier Curves</title>
+
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="363 Bézier Curves" />
+<meta name="author" content="Rigoberto Canseco" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Problem 363 https://projecteuler.net/problem=363" />
+<meta property="og:description" content="Problem 363 https://projecteuler.net/problem=363" />
+<link rel="canonical" href="http://localhost:4000/project-euler-problems/363-b%C3%A9zier-curves.html" />
+<meta property="og:url" content="http://localhost:4000/project-euler-problems/363-b%C3%A9zier-curves.html" />
+<meta property="og:site_name" content="Project Euler" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-02-11T00:00:00-06:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"363 Bézier Curves","dateModified":"2021-02-11T00:00:00-06:00","datePublished":"2021-02-11T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/project-euler-problems/363-b%C3%A9zier-curves.html"},"author":{"@type":"Person","name":"Rigoberto Canseco"},"description":"Problem 363 https://projecteuler.net/problem=363","url":"http://localhost:4000/project-euler-problems/363-b%C3%A9zier-curves.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/project-euler-problems/feed.xml" title="Project Euler" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="/project-euler-problems/logo.png" />
+  <link rel="stylesheet" href="/project-euler-problems/assets/css/main.css" />
+  <link rel="stylesheet" href="/project-euler-problems/assets/css/syntax.css" type="text/css" /><script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true,
+    },
+    CommonHTML: {
+      scale: 70,
+    }
+  });
+</script>
+<script type="text/javascript" async
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script></head><body a="auto">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <a href="/project-euler-problems/"><=</a>
+
+<article>
+  <h1>363 Bézier Curves</h1>
+
+  <p><strong>Problem 363</strong><br />
+<a href="https://projecteuler.net/problem=363">https://projecteuler.net/problem=363</a></p>
+
+<p>A cubic Bézier curve is defined by four points: $P_0, P_1, P_2,$ and $P_4$.</p>
+
+<div class="float_right"><img src="https://projecteuler.net/project/images/p363_bezier.png" class="dark_img" alt="p363_bezier.png" /></div>
+
+<p>The curve is constructed as follows:</p>
+
+<p>On the segments $P_0 P_1$, $P_1 P_2$, and $P_2 P_3$ the points $Q_0, Q_1,$ and $Q_2$ are drawn such that $\dfrac{P_0 Q_0}{P_0 P_1} = \dfrac{P_1 Q_1}{P_1 P_2} = \dfrac{P_2 Q_2}{P_2 P_3} = t$, with $t$ in $[0, 1]$.</p>
+
+<p>On the segments $Q_0 Q_1$ and $Q_1 Q_2$ the points $R_0$ and $R_1$ are drawn such that<br />
+$\dfrac{Q_0 R_0}{Q_0 Q_1} = \dfrac{Q_1 R_1}{Q_1 Q_2} = t$ for the same value of $t$.</p>
+
+<p>On the segment $R_0 R_1$ the point $B$ is drawn such that $\dfrac{R_0 B}{R_0 R_1} = t$ for the same value of $t$.</p>
+
+<p>The Bézier curve defined by the points $P_0, P_1, P_2, P_3$ is the locus of $B$ as $Q_0$ takes all possible positions on the segment $P_0 P_1$.<br />
+(Please note that for all points the value of $t$ is the same.)</p>
+
+<p>At <a href="http://home.kpn.nl/hklein/bezier/bezier.html">this (external) web address</a> you will find an applet that allows you to drag the points $P_0, P_1, P_2,$ and $P_3$ to see what the Bézier curve (green curve) defined by those points looks like. You can also drag the point $Q_0$ along the segment $P_0 P_1$.</p>
+
+<p>From the construction it is clear that the Bézier curve will be tangent to the segments $P_0 P_1$ in $P_0$ and $P_2 P_3$ in $P_3$.</p>
+
+<p>A cubic Bézier curve with $P_0 = (1, 0), P_1 = (1, v), P_2 = (v, 1),$ and $P_3 = (0, 1)$ is used to approximate a quarter circle.<br />
+The value $v \gt 0$ is chosen such that the area enclosed by the lines $O P_0, OP_3$ and the curve is equal to $\dfrac{\pi}{4}$ (the area of the quarter circle).</p>
+
+<p>By how many percent does the length of the curve differ from the length of the quarter circle?<br />
+That is, if $L$ is the length of the curve, calculate $100 \times \dfrac{L - \frac{\pi}{2}}{\frac{\pi}{2}}$<br />
+Give your answer rounded to 10 digits behind the decimal point.</p>
+<hr />
+
+</article>
+      </div>
+    </main>
+    
+  </body>
+</html>

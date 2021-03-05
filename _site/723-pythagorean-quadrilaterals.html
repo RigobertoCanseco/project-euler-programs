@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>723 Pythagorean Quadrilaterals</title>
+
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="723 Pythagorean Quadrilaterals" />
+<meta name="author" content="Rigoberto Canseco" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Problem 723 https://projecteuler.net/problem=723" />
+<meta property="og:description" content="Problem 723 https://projecteuler.net/problem=723" />
+<link rel="canonical" href="http://localhost:4000/project-euler-problems/723-pythagorean-quadrilaterals.html" />
+<meta property="og:url" content="http://localhost:4000/project-euler-problems/723-pythagorean-quadrilaterals.html" />
+<meta property="og:site_name" content="Project Euler" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-02-11T00:00:00-06:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"723 Pythagorean Quadrilaterals","dateModified":"2021-02-11T00:00:00-06:00","datePublished":"2021-02-11T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/project-euler-problems/723-pythagorean-quadrilaterals.html"},"author":{"@type":"Person","name":"Rigoberto Canseco"},"description":"Problem 723 https://projecteuler.net/problem=723","url":"http://localhost:4000/project-euler-problems/723-pythagorean-quadrilaterals.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/project-euler-problems/feed.xml" title="Project Euler" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="/project-euler-problems/logo.png" />
+  <link rel="stylesheet" href="/project-euler-problems/assets/css/main.css" />
+  <link rel="stylesheet" href="/project-euler-problems/assets/css/syntax.css" type="text/css" /><script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true,
+    },
+    CommonHTML: {
+      scale: 70,
+    }
+  });
+</script>
+<script type="text/javascript" async
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script></head><body a="auto">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <a href="/project-euler-problems/"><=</a>
+
+<article>
+  <h1>723 Pythagorean Quadrilaterals</h1>
+
+  <p><strong>Problem 723</strong><br />
+<a href="https://projecteuler.net/problem=723">https://projecteuler.net/problem=723</a></p>
+
+<p>A pythagorean triangle with catheti $a$ and $b$ and hypotenuse $c$ is characterized by the well-known equation $a^2+b^2=c^2$. However, this can also be formulated differently:<br />
+When inscribed into a circle with radius $r$, a triangle with sides $a$, $b$ and $c$ is pythagorean, if and only if $a^2+b^2+c^2=8\, r^2$.</p>
+
+<p>Analogously, we call a quadrilateral $ABCD$ with sides $a$, $b$, $c$ and $d$, inscribed in a circle with radius $r$, a <i>pythagorean quadrilateral</i>, if $a^2+b^2+c^2+d^2=8\, r^2$. <br />
+We further call a pythagorean quadrilateral a <i>pythagorean lattice grid quadrilateral</i>, if all four vertices are lattice grid points with the same distance $r$ from the origin $O$ (which then happens to be the centre of the circumcircle).</p>
+<p>
+Let $f(r)$ be the number of different pythagorean lattice grid quadrilaterals for which the radius of the circumcircle is $r$. For example $f(1)=1$, $f(\sqrt 2)=1$, $f(\sqrt 5)=38$ and $f(5)=167$.<br /> 
+Two of the pythagorean lattice grid  quadrilaterals with $r=\sqrt 5$ are illustrated below:</p>
+<div class="center">
+<img src="https://projecteuler.net/project/images/p723_1.png" alt="PythagoreanQ_1" />
+</div>
+<p><br /></p>
+<div class="center">
+<img src="https://projecteuler.net/project/images/p723_2.png" alt="PythagoreanQ_2" />
+</div>
+<p>
+Let $\displaystyle S(n)=\sum_{d \vert n} f(\sqrt d)$. For example, $S(325)=S(5^2 \cdot 13)=f(1)+f(\sqrt 5)+f(5)+f(\sqrt {13})+f(\sqrt{65})+f(5\sqrt{13})=2370$ and $S(1105)=S(5\cdot 13 \cdot 17)=5535$.</p>
+<p>
+Find $S(1411033124176203125)=S(5^6 \cdot 13^3 \cdot 17^2 \cdot 29 \cdot 37 \cdot 41 \cdot 53 \cdot 61)$.</p>
+<hr />
+
+</article>
+      </div>
+    </main>
+    
+  </body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>155 Counting Capacitor Circuits</title>
+
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="155 Counting Capacitor Circuits" />
+<meta name="author" content="Rigoberto Canseco" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Problem 155 https://projecteuler.net/problem=155" />
+<meta property="og:description" content="Problem 155 https://projecteuler.net/problem=155" />
+<link rel="canonical" href="http://localhost:4000/project-euler-problems/155-counting-capacitor-circuits.html" />
+<meta property="og:url" content="http://localhost:4000/project-euler-problems/155-counting-capacitor-circuits.html" />
+<meta property="og:site_name" content="Project Euler" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-02-11T00:00:00-06:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"155 Counting Capacitor Circuits","dateModified":"2021-02-11T00:00:00-06:00","datePublished":"2021-02-11T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/project-euler-problems/155-counting-capacitor-circuits.html"},"author":{"@type":"Person","name":"Rigoberto Canseco"},"description":"Problem 155 https://projecteuler.net/problem=155","url":"http://localhost:4000/project-euler-problems/155-counting-capacitor-circuits.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/project-euler-problems/feed.xml" title="Project Euler" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="/project-euler-problems/logo.png" />
+  <link rel="stylesheet" href="/project-euler-problems/assets/css/main.css" />
+  <link rel="stylesheet" href="/project-euler-problems/assets/css/syntax.css" type="text/css" /><script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true,
+    },
+    CommonHTML: {
+      scale: 70,
+    }
+  });
+</script>
+<script type="text/javascript" async
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script></head><body a="auto">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <a href="/project-euler-problems/"><=</a>
+
+<article>
+  <h1>155 Counting Capacitor Circuits</h1>
+
+  <p><strong>Problem 155</strong><br />
+<a href="https://projecteuler.net/problem=155">https://projecteuler.net/problem=155</a></p>
+
+<p>An electric circuit uses exclusively identical capacitors of the same value C.
+<br />
+The capacitors can be connected in series or in parallel to form sub-units, which can then be connected in series or in parallel with other capacitors or other sub-units to form larger sub-units, and so on up to a final circuit.</p>
+<p>Using this simple procedure and up to <var>n</var> identical capacitors, we can make circuits having a range of different total capacitances. For example, using up to <var>n</var>=3 capacitors of 60 $\mu$ F each, we can obtain the following 7 distinct total capacitance values: </p>
+<div class="center"><img src="https://projecteuler.net/project/images/p155_capacitors1.gif" class="dark_img" alt="" /></div>
+<p>If we denote by <var>D</var>(<var>n</var>) the number of distinct total capacitance values we can obtain when using up to <var>n</var> equal-valued capacitors and the simple procedure described above, we have: <var>D</var>(1)=1, <var>D</var>(2)=3, <var>D</var>(3)=7 ...</p>
+<p>Find <var>D</var>(18).</p>
+<p><i>Reminder :</i> When connecting capacitors C<sub>1</sub>, C<sub>2</sub> etc in parallel, the total capacitance is C<sub>T</sub> = C<sub>1</sub> + C<sub>2</sub> +...,
+<br />
+whereas when connecting them in series, the overall capacitance is given by: $\dfrac{1}{C_T} = \dfrac{1}{C_1} + \dfrac{1}{C_2} + ...$</p>
+
+<hr />
+
+</article>
+      </div>
+    </main>
+    
+  </body>
+</html>

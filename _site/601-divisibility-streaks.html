@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>601 Divisibility Streaks</title>
+
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="601 Divisibility Streaks" />
+<meta name="author" content="Rigoberto Canseco" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Problem 601 https://projecteuler.net/problem=601" />
+<meta property="og:description" content="Problem 601 https://projecteuler.net/problem=601" />
+<link rel="canonical" href="http://localhost:4000/project-euler-problems/601-divisibility-streaks.html" />
+<meta property="og:url" content="http://localhost:4000/project-euler-problems/601-divisibility-streaks.html" />
+<meta property="og:site_name" content="Project Euler" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-02-11T00:00:00-06:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"601 Divisibility Streaks","dateModified":"2021-02-11T00:00:00-06:00","datePublished":"2021-02-11T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/project-euler-problems/601-divisibility-streaks.html"},"author":{"@type":"Person","name":"Rigoberto Canseco"},"description":"Problem 601 https://projecteuler.net/problem=601","url":"http://localhost:4000/project-euler-problems/601-divisibility-streaks.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/project-euler-problems/feed.xml" title="Project Euler" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="/project-euler-problems/logo.png" />
+  <link rel="stylesheet" href="/project-euler-problems/assets/css/main.css" />
+  <link rel="stylesheet" href="/project-euler-problems/assets/css/syntax.css" type="text/css" /><script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true,
+    },
+    CommonHTML: {
+      scale: 70,
+    }
+  });
+</script>
+<script type="text/javascript" async
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script></head><body a="auto">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <a href="/project-euler-problems/"><=</a>
+
+<article>
+  <h1>601 Divisibility Streaks</h1>
+
+  <p><strong>Problem 601</strong><br />
+<a href="https://projecteuler.net/problem=601">https://projecteuler.net/problem=601</a></p>
+
+<p>
+For every positive number $n$ we define the function  $streak(n)=k$   as the smallest positive integer $k$ such that $n+k$ is not divisible by $k+1$.<br />
+E.g:<br />
+13 is divisible by 1 <br />
+14 is divisible by 2 <br />
+15 is divisible by 3 <br />
+16 is divisible by 4 <br />
+17 is NOT divisible by 5 <br />
+So $streak(13) = 4$. <br /> 
+Similarly:<br />
+120 is divisible by 1 <br />
+121 is NOT divisible by 2 <br />
+So $streak(120) = 1$.</p>
+<p>
+
+Define $P(s, N)$ to be the number of integers $n$, $1 &lt; n &lt; N$, for which $streak(n) = s$.<br />
+So $P(3, 14) = 1$ and $P(6, 10^6) = 14286$.
+</p>
+<p>
+Find the sum, as $i$ ranges from 1 to 31, of $P(i, 4^i)$.
+</p>
+
+<hr />
+
+</article>
+      </div>
+    </main>
+    
+  </body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>148 Exploring Pascal's Triangle</title>
+
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="148 Exploring Pascal&#8217;s Triangle" />
+<meta name="author" content="Rigoberto Canseco" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Problem 148 https://projecteuler.net/problem=148" />
+<meta property="og:description" content="Problem 148 https://projecteuler.net/problem=148" />
+<link rel="canonical" href="http://localhost:4000/project-euler-problems/148-exploring-pascal-s-triangle.html" />
+<meta property="og:url" content="http://localhost:4000/project-euler-problems/148-exploring-pascal-s-triangle.html" />
+<meta property="og:site_name" content="Project Euler" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-02-11T00:00:00-06:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"148 Exploring Pascal&#8217;s Triangle","dateModified":"2021-02-11T00:00:00-06:00","datePublished":"2021-02-11T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/project-euler-problems/148-exploring-pascal-s-triangle.html"},"author":{"@type":"Person","name":"Rigoberto Canseco"},"description":"Problem 148 https://projecteuler.net/problem=148","url":"http://localhost:4000/project-euler-problems/148-exploring-pascal-s-triangle.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/project-euler-problems/feed.xml" title="Project Euler" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="/project-euler-problems/logo.png" />
+  <link rel="stylesheet" href="/project-euler-problems/assets/css/main.css" />
+  <link rel="stylesheet" href="/project-euler-problems/assets/css/syntax.css" type="text/css" /><script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true,
+    },
+    CommonHTML: {
+      scale: 70,
+    }
+  });
+</script>
+<script type="text/javascript" async
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script></head><body a="auto">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <a href="/project-euler-problems/"><=</a>
+
+<article>
+  <h1>148 Exploring Pascal's Triangle</h1>
+
+  <p><strong>Problem 148</strong><br />
+<a href="https://projecteuler.net/problem=148">https://projecteuler.net/problem=148</a></p>
+
+<p>We can easily verify that none of the entries in the first seven rows of Pascal's triangle are divisible by 7:</p>
+<table cellpadding="0" cellspacing="0" border="0" align="center"><tr><td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> 1</td>
+</tr><tr><td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> 1</td>
+<td> </td>
+<td> 1</td>
+</tr><tr><td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> 1</td>
+<td> </td>
+<td> 2</td>
+<td> </td>
+<td> 1</td>
+</tr><tr><td> </td>
+<td> </td>
+<td> </td>
+<td> 1</td>
+<td> </td>
+<td> 3</td>
+<td> </td>
+<td> 3</td>
+<td> </td>
+<td> 1</td>
+</tr><tr><td> </td>
+<td> </td>
+<td> 1</td>
+<td> </td>
+<td> 4</td>
+<td> </td>
+<td> 6</td>
+<td> </td>
+<td> 4</td>
+<td> </td>
+<td> 1</td>
+</tr><tr><td> </td>
+<td> 1</td>
+<td> </td>
+<td> 5</td>
+<td> </td>
+<td>10</td>
+<td> </td>
+<td>10</td>
+<td> </td>
+<td> 5</td>
+<td> </td>
+<td> 1</td>
+</tr><tr><td>1</td>
+<td> </td>
+<td> 6</td>
+<td> </td>
+<td>15</td>
+<td> </td>
+<td>20</td>
+<td> </td>
+<td>15</td>
+<td> </td>
+<td> 6</td>
+<td> </td>
+<td> 1</td>
+</tr></table>
+<p>However, if we check the first one hundred rows, we will find that only 2361 of the 5050 entries are <i>not</i> divisible by 7.</p>
+
+<p>Find the number of entries which are <i>not</i> divisible by 7 in the first one billion (10<sup>9</sup>) rows of Pascal's triangle.</p>
+<hr />
+
+</article>
+      </div>
+    </main>
+    
+  </body>
+</html>

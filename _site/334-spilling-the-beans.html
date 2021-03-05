@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>334 Spilling The Beans</title>
+
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="334 Spilling The Beans" />
+<meta name="author" content="Rigoberto Canseco" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Problem 334 https://projecteuler.net/problem=334" />
+<meta property="og:description" content="Problem 334 https://projecteuler.net/problem=334" />
+<link rel="canonical" href="http://localhost:4000/project-euler-problems/334-spilling-the-beans.html" />
+<meta property="og:url" content="http://localhost:4000/project-euler-problems/334-spilling-the-beans.html" />
+<meta property="og:site_name" content="Project Euler" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-02-11T00:00:00-06:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"334 Spilling The Beans","dateModified":"2021-02-11T00:00:00-06:00","datePublished":"2021-02-11T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/project-euler-problems/334-spilling-the-beans.html"},"author":{"@type":"Person","name":"Rigoberto Canseco"},"description":"Problem 334 https://projecteuler.net/problem=334","url":"http://localhost:4000/project-euler-problems/334-spilling-the-beans.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/project-euler-problems/feed.xml" title="Project Euler" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="/project-euler-problems/logo.png" />
+  <link rel="stylesheet" href="/project-euler-problems/assets/css/main.css" />
+  <link rel="stylesheet" href="/project-euler-problems/assets/css/syntax.css" type="text/css" /><script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true,
+    },
+    CommonHTML: {
+      scale: 70,
+    }
+  });
+</script>
+<script type="text/javascript" async
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script></head><body a="auto">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <a href="/project-euler-problems/"><=</a>
+
+<article>
+  <h1>334 Spilling The Beans</h1>
+
+  <p><strong>Problem 334</strong><br />
+<a href="https://projecteuler.net/problem=334">https://projecteuler.net/problem=334</a></p>
+
+<p>In Plato's heaven, there exist an infinite number of bowls in a straight line.<br />
+Each bowl either contains some or none of a finite number of beans.<br />
+A child plays a game, which allows only one kind of move: removing two beans from any bowl, and putting one in each of the two adjacent bowls.<br /> The game ends when each bowl contains either one or no beans.</p>
+
+<p>For example, consider two adjacent bowls containing 2 and 3 beans respectively, all other bowls being empty. The following eight moves will finish the game:</p>
+
+<div align="center"><img src="https://projecteuler.net/project/images/p334_beans.gif" class="dark_img" alt="p334_beans.gif" /></div>
+
+<p>You are given the following sequences:<br /></p>
+
+<p>
+$\def\htmltext#1{\style{font-family:inherit;}{\text{#1}}}$
+$
+\begin{align}
+\qquad t_0 &amp;= 123456,\cr
+\qquad t_i &amp;= \cases{
+\;\;\frac{t_{i-1}}{2},&amp;$\htmltext{if }t_{i-1}\htmltext{ is even}$\cr
+\left\lfloor\frac{t_{i-1}}{2}\right\rfloor\oplus 926252,&amp;$\htmltext{if }t_{i-1}\htmltext{ is odd}$\cr}\cr
+&amp;\qquad\htmltext{where }\lfloor x\rfloor\htmltext{ is the floor function }\cr
+&amp;\qquad\!\htmltext{and }\oplus\htmltext{is the bitwise XOR operator.}\cr
+\qquad b_i &amp;= (t_i\bmod2^{11}) + 1.\cr
+\end{align}
+$
+</p>
+
+<p>The first two terms of the last sequence are $b_1 = 289$ and $b_2 = 145$.<br />
+If we start with $b_1$ and $b_2$ beans in two adjacent bowls, $3419100$ moves would be required to finish the game.</p>
+
+<p>Consider now $1500$ adjacent bowls containing $b_1, b_2, \ldots, b_{1500}$ beans respectively, all other bowls being empty. Find how many moves it takes before the game ends.</p>
+<hr />
+
+</article>
+      </div>
+    </main>
+    
+  </body>
+</html>

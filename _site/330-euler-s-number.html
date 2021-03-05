@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>330 Euler's Number</title>
+
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="330 Euler&#8217;s Number" />
+<meta name="author" content="Rigoberto Canseco" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Problem 330 https://projecteuler.net/problem=330" />
+<meta property="og:description" content="Problem 330 https://projecteuler.net/problem=330" />
+<link rel="canonical" href="http://localhost:4000/project-euler-problems/330-euler-s-number.html" />
+<meta property="og:url" content="http://localhost:4000/project-euler-problems/330-euler-s-number.html" />
+<meta property="og:site_name" content="Project Euler" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-02-11T00:00:00-06:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"330 Euler&#8217;s Number","dateModified":"2021-02-11T00:00:00-06:00","datePublished":"2021-02-11T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/project-euler-problems/330-euler-s-number.html"},"author":{"@type":"Person","name":"Rigoberto Canseco"},"description":"Problem 330 https://projecteuler.net/problem=330","url":"http://localhost:4000/project-euler-problems/330-euler-s-number.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/project-euler-problems/feed.xml" title="Project Euler" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="/project-euler-problems/logo.png" />
+  <link rel="stylesheet" href="/project-euler-problems/assets/css/main.css" />
+  <link rel="stylesheet" href="/project-euler-problems/assets/css/syntax.css" type="text/css" /><script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true,
+    },
+    CommonHTML: {
+      scale: 70,
+    }
+  });
+</script>
+<script type="text/javascript" async
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script></head><body a="auto">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <a href="/project-euler-problems/"><=</a>
+
+<article>
+  <h1>330 Euler's Number</h1>
+
+  <p><strong>Problem 330</strong><br />
+<a href="https://projecteuler.net/problem=330">https://projecteuler.net/problem=330</a></p>
+
+<p>An infinite sequence of real numbers <var>a</var>(<var>n</var>) is defined for all integers <var>n</var> as follows:
+<script type="math/tex">% <![CDATA[
+a(n) = \begin{cases}
+1 &amp; n \lt 0\\
+\sum \limits_{i = 1}^{\infty}{\dfrac{a(n - i)}{i!}} &amp; n \ge 0
+\end{cases} %]]></script></p>
+
+<p>For example,<br /></p>
+
+<p>$a(0) = \dfrac{1}{1!} + \dfrac{1}{2!} + \dfrac{1}{3!} + \cdots = e - 1$<br />
+$a(1) = \dfrac{e - 1}{1!} + \dfrac{1}{2!} + \dfrac{1}{3!} + \cdots = 2e - 3$<br />
+$a(2) = \dfrac{2e - 3}{1!} + \dfrac{e - 1}{2!} + \dfrac{1}{3!} + \cdots = \dfrac{7}{2}e - 6$</p>
+
+<p>with $e = 2.7182818...$ being Euler's constant.</p>
+
+<p>It can be shown that $a(n)$ is of the form $\dfrac{A(n)e + B(n)}{n!}$ for integers $A(n)$ and $B(n)$.</p>
+
+<p>For example, $a(10) = \dfrac{328161643e - 652694486}{10!}$.</p>
+
+<p>Find $A(10^9) + B(10^9)$ and give your answer mod 77 777 777.</p>
+<hr />
+
+</article>
+      </div>
+    </main>
+    
+  </body>
+</html>

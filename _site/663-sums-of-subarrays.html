@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>663 Sums Of Subarrays</title>
+
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="663 Sums Of Subarrays" />
+<meta name="author" content="Rigoberto Canseco" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Problem 663 https://projecteuler.net/problem=663" />
+<meta property="og:description" content="Problem 663 https://projecteuler.net/problem=663" />
+<link rel="canonical" href="http://localhost:4000/project-euler-problems/663-sums-of-subarrays.html" />
+<meta property="og:url" content="http://localhost:4000/project-euler-problems/663-sums-of-subarrays.html" />
+<meta property="og:site_name" content="Project Euler" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-02-11T00:00:00-06:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"663 Sums Of Subarrays","dateModified":"2021-02-11T00:00:00-06:00","datePublished":"2021-02-11T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/project-euler-problems/663-sums-of-subarrays.html"},"author":{"@type":"Person","name":"Rigoberto Canseco"},"description":"Problem 663 https://projecteuler.net/problem=663","url":"http://localhost:4000/project-euler-problems/663-sums-of-subarrays.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/project-euler-problems/feed.xml" title="Project Euler" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="/project-euler-problems/logo.png" />
+  <link rel="stylesheet" href="/project-euler-problems/assets/css/main.css" />
+  <link rel="stylesheet" href="/project-euler-problems/assets/css/syntax.css" type="text/css" /><script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true,
+    },
+    CommonHTML: {
+      scale: 70,
+    }
+  });
+</script>
+<script type="text/javascript" async
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script></head><body a="auto">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <a href="/project-euler-problems/"><=</a>
+
+<article>
+  <h1>663 Sums Of Subarrays</h1>
+
+  <p><strong>Problem 663</strong><br />
+<a href="https://projecteuler.net/problem=663">https://projecteuler.net/problem=663</a></p>
+
+<p>Let $t_k$ be the <b>tribonacci numbers</b> defined as: <br />
+$\quad t_0 = t_1 = 0$;<br />
+$\quad t_2 = 1$; <br />
+$\quad t_k = t_{k-1} + t_{k-2} + t_{k-3} \quad \text{   for   }  k \ge 3$.</p>
+
+<p>For a given integer $n$, let $A_n$ be an array of length $n$ (indexed from 0 to $n-1$), that is initially filled with zeros.<br />
+The array is changed iteratively by replacing $A_n[(t_{2 i-2} \text{ mod } n)]$ with $A_n[(t_{2 i-2} \text{ mod } n)]+2 (t_{2 i-1} \text{ mod } n)-n+1$ in each step $i$.<br /> 
+After each step $i$, define $M_n(i)$ to be $\displaystyle \max\{\sum_{j=p}^q A_n[j]: 0\le p\le q&lt;n\}$, the maximal sum of any contiguous subarray of $A_n$. </p>
+
+<p>The first 6 steps for $n=5$ are illustrated below:<br />
+Initial state: $\, A_5=\{0,0,0,0,0\}$<br />
+Step 1:   $\quad \Rightarrow A_5=\{-4,0,0,0,0\}$ , $M_5(1)=0$<br />
+Step 2: $\quad \Rightarrow A_5=\{-4, -2, 0, 0, 0\}$ , $M_5(2)=0$<br />
+Step 3: $\quad \Rightarrow A_5=\{-4, -2, 4, 0, 0\}$ , $M_5(3)=4$<br />
+Step 4: $\quad \Rightarrow A_5=\{-4, -2, 6, 0, 0\}$ , $M_5(4)=6$<br />
+Step 5: $\quad \Rightarrow A_5=\{-4, -2, 6, 0, 4\}$ , $M_5(5)=10$<br />
+Step 6: $\quad \Rightarrow A_5=\{-4, 2, 6, 0, 4\}$ , $M_5(6)=12$<br />
+</p>
+
+<p>Let $\displaystyle S(n,l)=\sum_{i=1}^l M_n(i)$. Thus $S(5,6)=32$.<br />
+You are given $S(5,100)=2416$, $S(14,100)=3881$ and $S(107,1000)=1618572$.</p>
+
+<p>Find $S(10\,000\,003,10\,200\,000)-S(10\,000\,003,10\,000\,000)$.</p>
+<hr />
+
+</article>
+      </div>
+    </main>
+    
+  </body>
+</html>

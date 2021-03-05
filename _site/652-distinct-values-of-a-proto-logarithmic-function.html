@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>652 Distinct Values Of A Proto Logarithmic Function</title>
+
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="652 Distinct Values Of A Proto Logarithmic Function" />
+<meta name="author" content="Rigoberto Canseco" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Problem 652 https://projecteuler.net/problem=652" />
+<meta property="og:description" content="Problem 652 https://projecteuler.net/problem=652" />
+<link rel="canonical" href="http://localhost:4000/project-euler-problems/652-distinct-values-of-a-proto-logarithmic-function.html" />
+<meta property="og:url" content="http://localhost:4000/project-euler-problems/652-distinct-values-of-a-proto-logarithmic-function.html" />
+<meta property="og:site_name" content="Project Euler" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-02-11T00:00:00-06:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"652 Distinct Values Of A Proto Logarithmic Function","dateModified":"2021-02-11T00:00:00-06:00","datePublished":"2021-02-11T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/project-euler-problems/652-distinct-values-of-a-proto-logarithmic-function.html"},"author":{"@type":"Person","name":"Rigoberto Canseco"},"description":"Problem 652 https://projecteuler.net/problem=652","url":"http://localhost:4000/project-euler-problems/652-distinct-values-of-a-proto-logarithmic-function.html","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/project-euler-problems/feed.xml" title="Project Euler" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="/project-euler-problems/logo.png" />
+  <link rel="stylesheet" href="/project-euler-problems/assets/css/main.css" />
+  <link rel="stylesheet" href="/project-euler-problems/assets/css/syntax.css" type="text/css" /><script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true,
+    },
+    CommonHTML: {
+      scale: 70,
+    }
+  });
+</script>
+<script type="text/javascript" async
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script></head><body a="auto">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <a href="/project-euler-problems/"><=</a>
+
+<article>
+  <h1>652 Distinct Values Of A Proto Logarithmic Function</h1>
+
+  <p><strong>Problem 652</strong><br />
+<a href="https://projecteuler.net/problem=652">https://projecteuler.net/problem=652</a></p>
+
+<p>Consider the values of $\log_2(8)$, $\text{log}_4(64)$ and $\text{log}_3(27)$. All three are equal to $3$.</p>
+
+<p>Generally, the function $f(m,n)=\text{log}_m(n)$ over integers $m,n \ge 2$ has the property that <br />
+$f(m_1,n_1)=f(m_2,n_2)$ if
+</p>
+<ol>
+<li>$\, m_1=a^e, n_1=a^f, m_2=b^e,n_2=b^f \,$ for some integers $a,b,e,f \, \,$ or </li>
+<li> $ \, m_1=a^e, n_1=b^e, m_2=a^f,n_2=b^f \,$ for some integers $a,b,e,f \,$ </li></ol>
+
+<p>We call a function $g(m,n)$ over integers $m,n \ge 2$ <i>proto-logarithmic</i>  if 
+</p>
+<ul><li>$\quad  \, \, \, \, g(m_1,n_1)=g(m_2,n_2)$ if any integers $a,b,e,f$ fulfilling 1. or 2. can be found </li>
+<li><b>and</b> $\, g(m_1,n_1) \ne g(m_2,n_2)$ if no integers $a,b,e,f$ fulfilling 1. or 2. can be found</li>
+</ul>
+<p>Let $D(N)$ be the number of distinct values that any proto-logarithmic function $g(m,n)$ attains over $2\le m, n\le N$.<br />
+For example, $D(5)=13$, $D(10)=69$, $D(100)=9607$ and $D(10000)=99959605$.</p>
+
+<p>Find $D(10^{18})$, and give the last 9 digits as answer.</p>
+
+<p><br />
+<font size="2"><b>Note:</b> According to the <b>four exponentials conjecture</b> the function $\text{log}_m(n)$ is <i>proto-logarithmic</i>.<br /> While this conjecture is yet unproven in general, $\text{log}_m(n)$ can be used to calculate $D(N)$ for small values of $N$.</font></p>
+<hr />
+
+</article>
+      </div>
+    </main>
+    
+  </body>
+</html>
