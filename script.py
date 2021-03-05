@@ -5,6 +5,11 @@ import requests
 import feedparser
 from bs4 import BeautifulSoup
 import datetime
+import re
+
+
+def clean(content):
+    return re.sub('"project/', '"https://projecteuler.net/project/', content)
 
 
 def last_problem():
@@ -18,7 +23,7 @@ def save_in_file(link, title, problem_id, content, dir='_posts/'):
         + title.lower().replace(' ', '-').replace('/', '-') + '.md'
     f = open(n, 'w')
     f.write('---\nlayout: post\nmathjax: true\n---\n**' + 'Problem ' + problem_id + '**  \n' + '[' + link + ']('
-            + link + ')' + '\n\n' + content + '\n---\n')
+            + link + ')' + '\n\n' + clean(content) + '\n---\n')
     f.close()
     return n
 
@@ -59,14 +64,28 @@ def read_last_problem():
     return p
 
 
-if __name__ == '__main__':
-    i = read_last_problem()
-    f = last_problem()
-    for i in range(i+1, f):
-        get_problem(str(i))
-        print('Get problem:', i, '\tFile:', f)
+def write_last_problem(p):
+    file = open(file='last-problem.txt', mode='w')
+    file.write(str(p))
+    file.close()
 
 
+def print_problems():
+    pass
     # files = [f for f in listdir('_posts') if isfile(join('_posts', f))]
-    #for i in files:
+    # for i in files:
     #    print('problems/' + i[11:])
+
+
+if __name__ == '__main__':
+    l = read_last_problem()
+    f = last_problem()
+    try:
+        for i in range(l+1, f):
+            p = get_problem(str(i))
+            print('Get problem:', i, '\tFile:', p)
+    except Exception as e:
+        print('Error: ', e)
+    finally:
+        print('Finish, last problem ', i)
+        write_last_problem(i)

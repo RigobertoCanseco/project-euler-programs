@@ -11,7 +11,7 @@ mathjax: true
 For example, $\psi(3)=7$.</p>
 
 <div style="text-align:center;">
-<img src="project/images/p747_PizzaDiag.jpg" class="dark_img" alt="" /></div>
+<img src="https://projecteuler.net/project/images/p747_PizzaDiag.jpg" class="dark_img" alt="" /></div>
 
 <p>Also $\psi(6)=34$, and $\psi(10)=90$.</p>
 
