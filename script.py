@@ -1,60 +1,21 @@
-import os
-from os import listdir
-from os.path import isfile, join
 import requests
 import feedparser
 from bs4 import BeautifulSoup
 import datetime
 import re
+import os
+import base64
 
 
-def clean(content):
-    return re.sub('"project/', '"https://projecteuler.net/project/', content)
+TOKEN = os.environ['TOKEN_GITHUB']
+URL = 'https://api.github.com/repos/rigobertocanseco/project-euler-problems/contents/_posts/'
+P_EULER = 'https://projecteuler.net/project/'
 
 
 def last_problem():
     for entry in feedparser.parse('https://projecteuler.net/rss2_euler.xml').entries:
         if entry.title.find('Problem') == 0:
             return int(entry.title[8:])
-
-
-def save_in_file(link, title, problem_id, content, dir='_posts/'):
-    n = dir + datetime.datetime.now().strftime('%Y-%m-%d') + '_' + problem_id + '-' \
-        + title.lower().replace(' ', '-').replace('/', '-') + '.md'
-    f = open(n, 'w')
-    f.write('---\nlayout: post\nmathjax: true\n---\n**' + 'Problem ' + problem_id + '**  \n' + '[' + link + ']('
-            + link + ')' + '\n\n' + clean(content) + '\n---\n')
-    f.close()
-    return n
-
-
-def get_problem(id):
-    try:
-        link = 'https://projecteuler.net/problem=' + id
-        page = requests.get(link)
-        content = requests.get('https://projecteuler.net/minimal=' + id)
-        soup = BeautifulSoup(page.text, 'html.parser')
-        return save_in_file(link, soup.find('h2').text, id, content.text)
-    except Exception as e:
-        print('Error:', e)
-
-
-def get_all():
-    p = last_problem()
-
-    for i in range(1, p):
-        if i < 10:
-            n = '0'+str(i)
-        else:
-            n = str(i)
-        f = get_problem(n)
-        print('Get problem:', i, '\tFile:', f)
-
-
-def renames_files():
-    files = [f for f in listdir('_posts_rm') if isfile(join('_posts_rm', f))]
-    for i in files:
-        os.rename('_posts_rm/' + i, '_posts_rm/' + i.replace('.md | tr _ -', '.md').replace('_', '-'))
 
 
 def read_last_problem():
@@ -70,22 +31,38 @@ def write_last_problem(p):
     file.close()
 
 
-def print_problems():
-    pass
-    # files = [f for f in listdir('_posts') if isfile(join('_posts', f))]
-    # for i in files:
-    #    print('problems/' + i[11:])
-
-
 if __name__ == '__main__':
     l = read_last_problem()
     f = last_problem()
     try:
-        for i in range(l+1, f):
-            p = get_problem(str(i))
-            print('Get problem:', i, '\tFile:', p)
+        for i in range(l + 1, f):
+            id = str(i)
+            link = 'https://projecteuler.net/problem=' + id
+            data = requests.get('https://projecteuler.net/minimal=' + id)
+            clean_data = re.sub('"project/', P_EULER, data.text)
+            name = datetime.datetime.now().strftime('%Y-%m-%d') + '-' + id + '-' + BeautifulSoup(requests.get(link).text
+                ,'html.parser').find('h2').text.lower().replace(' ', '-').replace('/', '-') + '.md'
+            content = '---\nlayout: post\nmathjax: true\n---\n**' + 'Problem ' + id + '**  \n' + '[' + link + '](' \
+                      + link + ')' + '\n\n' + clean_data + '\n---\n'
+            f = open('_posts/' + name, 'w')
+            f.write(content)
+            f.close()
+            print('Create file', name)
+            response = requests.put(URL + name, headers={
+                'Accept': 'application/vnd.github.v3+json',
+                'Content-Type': 'application/x-www-form-urlencoded',
+                'Authorization': 'bearer ' + TOKEN
+            }, json={
+                'message': 'update file ' + name,
+                'branch': 'gh-pages',
+                'content': base64.b64encode(content.encode('ascii')).decode('utf-8')
+            })
+            print('Upload file', response)
+            if response.status_code != 201:
+                exit(-1)
+            print('Finish, last problem ', i)
+            write_last_problem(i)
+
     except Exception as e:
         print('Error: ', e)
-    finally:
-        print('Finish, last problem ', i)
-        write_last_problem(i)
+        write_last_problem(i - 1)
